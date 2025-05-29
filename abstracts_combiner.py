@@ -1,9 +1,11 @@
 import json
 
 files_and_counts = [
-    ("cl_abstracts.json", 262),
-    ("conll_abstracts.json", 519),
-    ("ranlp_abstracts.json", 717),
+    ("abstracts/cl_abstracts.json", 250),
+    ("abstracts/conll_abstracts.json", 500),
+    ("abstracts/ranlp_abstracts.json", 500),
+    ("abstracts/wmt_abstracts.json", 500),
+    ("abstracts/lrec_abstracts.json", 750)
 ]
 collected = []
 
@@ -12,10 +14,10 @@ for filename, count in files_and_counts:
         abstracts = json.load(f)
         collected.extend(abstracts[:count])
 
-# Assign id from 1 to 1000
+# Assign id from 1 to 2500
 for idx, item in enumerate(collected, 1):
     item["id"] = idx
 
-with open("abstracts_1498.json", "w") as out_f:
+with open("abstracts/combined_abstracts_2500.json", "w") as out_f:
     json.dump(collected, out_f, indent=2)
 

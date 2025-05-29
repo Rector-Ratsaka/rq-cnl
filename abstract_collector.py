@@ -4,7 +4,7 @@ import json
 import time
 
 BASE_URL = "https://aclanthology.org"
-VENUE_URL = f"{BASE_URL}/venues/ranlp/"
+VENUE_URL = f"{BASE_URL}/venues/lrec/"
 
 # Step 1: Get all volume links from the venue page
 res = requests.get(VENUE_URL)
@@ -17,14 +17,14 @@ volume_urls = sorted(set(
     if link["href"].startswith("/volumes/") and link["href"].endswith("/")
 ))
 
-print(f"🔗 Found {len(volume_urls)} volume URLs")
+print(f"Found {len(volume_urls)} volume URLs")
 
 # Step 2: Loop over each volume and extract abstracts
 results = []
 paper_id = 1
 
 for volume_url in volume_urls:
-    print(f"📄 Scraping: {volume_url}")
+    print(f"Scraping: {volume_url}")
     try:
         vres = requests.get(volume_url)
         vsoup = BeautifulSoup(vres.text, "html.parser")
@@ -56,7 +56,7 @@ for volume_url in volume_urls:
         continue
 
 # Step 3: Save results to JSON
-with open("ranlp_abstracts.json", "w", encoding="utf-8") as f:
+with open("lrec_abstracts.json", "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
 
 print(f"\nFinished. Collected {len(results)} abstracts.")
