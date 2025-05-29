@@ -1,0 +1,31 @@
+research_question
+How effectively do multilingual neural machine translation models capture and represent lexical semantics compared to their bilingual counterparts?
+"Can the choice of translation unit (word, character, or subword unit) impact the linguistic properties captured by the underlying representations of multilingual NMT models?"
+How does a multi-agent approach to designing a chatbot's emotional intelligence and decision-making process impact its ability to establish long-term user engagement and satisfaction?
+"Can a machine learning-based approach to detecting and responding to human emotions in chatbot conversations improve the CPS of a social chatbot, as measured by user engagement metrics?"
+"How effective are multilingual topic models in transferring knowledge across languages under varying training conditions, and what are the key factors that influence their performance?"
+How can the design of multilingual topic models be optimized to improve their knowledge transfer capabilities and adaptability across languages and training conditions?
+How effective are sentence simplification approaches that utilize corpora of aligned original-simplified sentence pairs in achieving significant reductions in sentence length while preserving grammatical correctness?
+"Can a hybrid approach combining rule-based and machine learning-based methods for sentence simplification outperform existing methods in terms of simplicity and readability, as measured by human evaluation and automated metrics?"
+How effective are existing annotation schemes for negation in multilingual corpora in handling variations in tokenization and annotation guidelines across different languages?
+"Can a standardized annotation scheme for negation be developed that can accommodate the diverse tokenization and annotation practices in multilingual corpora, and how can this scheme be evaluated for its effectiveness?"
+How do time-stamped corpora improve the quality of word embeddings in capturing meaning changes over time and location?
+"Can a model trained on time-stamped corpora retain salient semantic and geometric properties in word embeddings, and how do these properties compare to state-of-the-art models?"
+"How do different neural network architectures (LSTM, CNN, XLNet) influence the similarity between learned attention mechanisms and human visual attention in machine reading comprehension tasks?"
+Can a novel eye-tracking dataset (MQA-RC) provide a reliable benchmark for evaluating the effectiveness of neural networks in capturing human-like attention mechanisms?
+How effective is a neural variant of proof nets based on Sinkhorn networks in parsing written Dutch sentences into type-logical derivations of the linear λ-calculus?
+Can the proposed neuro-symbolic parser achieve state-of-the-art performance on parsing tasks using a formally grounded architecture that balances efficiency and accuracy?
+"How do pre-trained Transformer-based neural architectures generalize to novel taxonomic categories in the Natural Language Inference (NLI) task, and what are the specific linguistic, logical, and reasoning phenomena that are learnt by these systems?"
+"Can a taxonomic hierarchy of categories effectively identify and address the gaps in current NLI systems and datasets, and what are the implications for improving the performance of NLI models on difficult categories?"
+How effective are genre-specific pre-trained language models in predicting the subjective guilt judgments of crime reporting articles?
+How do the linguistic choices in crime reporting articles influence the formation of span-level annotations for guilt judgments in the SuspectGuilt Corpus?
+"How do transformer-based models perform in detecting corrupted limericks, and what is the relationship between their performance and the level of rhyme complexity in the corrupted pairs?"
+"Can a rigorous benchmarking framework like BPoMP improve the evaluation of language models' ability to understand and generate poetry, and what are the implications for the development of more effective poetry-specific NLP models?"
+How effective is a semi-automatic strategy for populating ontology-driven task-oriented dialogue systems in detecting intent in multilingual interactions?
+How does the semi-automatic approach improve the quality and efficiency of intent detection in dialogue systems by leveraging existing multilingual resources and FrameNet frames?
+How effective is a zero-shot text classification approach in leveraging lexical similarity between Indian languages for text classification tasks?
+Can a multilingual model trained on one Indian language significantly outperform traditional baselines when exploiting language relatedness for text classification in a multilingual scenario?
+"How effective is the Domain-Specific Back Translation approach in improving translation quality for technical domains like Chemistry and Artificial Intelligence, compared to existing methods?"
+Can a generic approach to generating synthetic data using Out Of Domain words improve the BLEU scores for language pairs like Hindi and Telugu in both directions?
+"How effective are pre-trained transformer models such as BERT in fine-tuning for Arabic Word Sense Disambiguation, and what is the impact of different supervised signals on the accuracy of the fine-tuned models?"
+"Can a large-scale dataset of labeled Arabic context-gloss pairs be used to train BERT models for effective Arabic Word Sense Disambiguation, and what are the optimal parameters for achieving high accuracy in this task?"
