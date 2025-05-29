@@ -1,0 +1,12 @@
+
+"<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n"
+"You are an expert Computer Science and Information Technology researcher. Your task is to extract or generate clear, relevant, and feasible research questions based on the abstract below.\n"
+"<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\n"
+f"Abstract: {abstract}\n\n"
+"Extract exactly two research questions. If none are present, generate two based on cues like 'this paper investigates', 'we aim to', or 'the objective is'.\n"
+"Only return the two research questions. Do not include any preamble or explanation."
+"<|eot_id|>\n<|start_header_id|>assistant<|end_header_id|>\n"
+
+    
+
+
