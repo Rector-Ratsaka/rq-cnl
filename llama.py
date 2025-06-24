@@ -7,9 +7,9 @@ from transformers import AutoTokenizer, pipeline
 
 # command line args
 parser = argparse.ArgumentParser(description="Generate/Extract research questions from abstracts using LLaMA 3.2.")
-parser.add_argument("--input_file", type=str, default="abstracts/combined_abstracts.json", help="Path to the input abstracts JSON file.")
-parser.add_argument("--prompts_file", type=str, default="prompts/llama_prompt2.txt", help="Path to the prompts text file.")
-parser.add_argument("--output_file", type=str, default="research_questions/rqs_dataset.csv", help="Path to the output CSV file.")
+parser.add_argument("input_file", type=str, help="Path to the input abstracts JSON file.")
+parser.add_argument("prompts_file", type=str, help="Path to the prompts text file.")
+parser.add_argument("output_file", type=str,  help="Path to the output CSV file.")
 args = parser.parse_args()
 
 # Assign command line arguments to variables
@@ -21,7 +21,7 @@ output_file = args.output_file
 model_name = "meta-llama/Llama-3.2-3B-Instruct"
 
 # Target ID ranges
-target_ids = set(range(1, 6)) | set(range(251, 256)) | set(range(651, 656))
+target_ids = set(range(1, 2500))
 
 # Load tokenizer and model
 tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -51,14 +51,14 @@ for entry in abstracts:
 
     abstract = entry["abstract"].strip()
 
-    # LLaMA 3 prompt format
-    prompt = (prompt_template)
+    # prompt with abstract
+    prompt = prompt_template.format(abstract=abstract)
 
     output = pipe(prompt, max_new_tokens=256)[0]["generated_text"]
     response = output[len(prompt):].strip()
     for line in response.split("\n"):
     	# Remove numbers and quotes
-    	clean_line = re.sub(r'^\s*["\']?\d+[\.\)]\s*', '', line).strip(' "\'\n')
+        clean_line = re.sub(r'^\s*["\']?\d+[\.\)]\s*', '', line).strip(' "\'\n')
         if clean_line:
             rqs_dataset.append({"research_question": clean_line})
 

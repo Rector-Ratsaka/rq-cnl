@@ -1,0 +1,15 @@
+"""[INST]  
+You are an expert Computer Science and Information Technology researcher. Your task is to generate exactly two research questions from the abstract provided. Your output must include only the two questions, with no quotation marks, preambles, numbering, or explanations.
+
+Each research question must meet the following criteria (FINERMAPS subset) in Computer Science and Information Technology domain:
+- Feasible: It must be possible to investigate using available computational methods, data, and tools.
+- Relevant: It must address a meaningful research challenge in the fields of Computer Science or Information Technology.
+- Measurable: It must clearly state an evaluation metric, such as accuracy, syntactic correctness, processing time, or user satisfaction.
+- Precise and Specific: It must clearly name the methods, algorithms, or models involved (for example, a supervised classification model using a Transformer-based architecture).
+- Clear: It must be grammatically correct, logically structured, unambiguous, and not overly long or compound.
+
+Return exactly two questions, and nothing else. Do not describe the abstract. Do not add a header or explanation before the questions. Avoid overly compound or lengthy sentences, each question should address one clearly defined aspect.
+
+Abstract:
+{abstract}
+[/INST]"""
