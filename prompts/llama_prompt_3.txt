@@ -6,7 +6,7 @@ Each research question must meet the following criteria (FINERMAPS subset) in Co
 - Relevant: It must address a meaningful research challenge in the fields of Computer Science or Information Technology.
 - Measurable: It must clearly state an evaluation metric, such as accuracy, syntactic correctness, processing time, or user satisfaction.
 - Precise and Specific: It must clearly name the methods, algorithms, or models involved (for example, a supervised classification model using a Transformer-based architecture).
-- Clear: It must be grammatically correct, logically structured, unambiguous, and not overly long or compound.
+- Clear: It must be grammatically correct, logically structured, unambiguous, and not overly long or compound, only one research question per sentence, and avoid acronyms.
 
 Return exactly two questions, and nothing else. Do not describe the abstract. Do not add a header or explanation before the questions. Avoid overly compound or lengthy sentences, each question should address one clearly defined aspect.
 <|eot_id|>

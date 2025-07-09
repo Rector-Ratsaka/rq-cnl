@@ -20,8 +20,8 @@ output_file = args.output_file
 # Model name
 model_name = "meta-llama/Llama-3.2-3B-Instruct"
 
-# Target ID ranges
-target_ids = set(range(1, 2500))
+# Target ID range
+target_ids = set(range(1, 2501))
 
 # Load tokenizer and model
 tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -34,12 +34,11 @@ pipe = pipeline(
     pad_token_id=tokenizer.eos_token_id
 )
 
-
 # Load abstracts
 with open(input_file, "r", encoding="utf-8") as f:
     abstracts = json.load(f)
 
-# Load prompts
+# Load prompt template
 with open(prompts_file, "r", encoding="utf-8") as f:
     prompt_template = f.read().strip()
 
@@ -50,21 +49,27 @@ for entry in abstracts:
         continue
 
     abstract = entry["abstract"].strip()
+    url = entry.get("url", "")
 
-    # prompt with abstract
+    # format the prompt
     prompt = prompt_template.format(abstract=abstract)
 
+    # Generate output
     output = pipe(prompt, max_new_tokens=256)[0]["generated_text"]
     response = output[len(prompt):].strip()
+
     for line in response.split("\n"):
-    	# Remove numbers and quotes
+        # Clean and validate each line
         clean_line = re.sub(r'^\s*["\']?\d+[\.\)]\s*', '', line).strip(' "\'\n')
         if clean_line:
-            rqs_dataset.append({"research_question": clean_line})
+            rqs_dataset.append({
+                "url": url,
+                "research_question": clean_line
+            })
 
 # Save to CSV
 with open(output_file, "w", newline="", encoding="utf-8") as csvfile:
-    writer = csv.DictWriter(csvfile, fieldnames=["research_question"])
+    writer = csv.DictWriter(csvfile, fieldnames=["url", "research_question"])
     writer.writeheader()
     writer.writerows(rqs_dataset)
 
