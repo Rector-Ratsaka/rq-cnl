@@ -96,16 +96,13 @@ def process_csv_file(file_path: Path):
 
     # Save output
     output_dir = create_output_directory()
-    output_path = output_dir / "mistral_mod_with_mappings.csv"
+    output_path = output_dir / "llama_templates_mappings.csv"
     df.to_csv(output_path, index=False, encoding='utf-8')
     print(f"Saved CNL templates with mappings to: {output_path}")
     
-    # Display first few rows as example
-    print("\nFirst few rows of output:")
-    print(df.head().to_string(index=False))
 
 def main():
-    file_path = Path("research_questions/mistral_rqs.csv")
+    file_path = Path("research_questions/llama_rqs.csv")
     if not file_path.exists():
         print(f"File not found: {file_path}")
         return
