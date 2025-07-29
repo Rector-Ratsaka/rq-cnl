@@ -1,0 +1,114 @@
+How does [the] (EC1) [enhanced] (PC1) [TAP-DLND 2.0 dataset and associated baselines contribute to future research] (EC2) on [document-level novelty detection] (EC3)?
+Can [the] (EC1) [proposed] (PC1) [emotion classification model perform better than fully-supervised models] (EC2) when [trained] (PC2) [on few labeled data] (EC3)?
+How can [the expanded Scottish Gaelic wordnet resource] (EC1) be [utilized] (PC1) [to enhance language learning and preservation efforts] (EC2) in [the community] (EC3)?
+How can [the Sequitur-G2P grapheme-to-phoneme conversion toolkit] (EC1) be [applied] (PC1) [to bootstrap a transliteration model] (EC2) for [multiple Yiddish orthographies] (EC3)?
+What [lexical fixedness metric improvements] (EC1) can be [made] (PC1) [to enhance the F1-score] (EC2) of [idiom type identification models] (EC3)?
+C[a] (EC3)n [the] (EC1) [proposed] (PC1) [character embeddings improve the performance] (EC2) of a [visual] (PC2) [question answering system compared to traditional Word2Vec models] (EC4)?
+What is [the] (EC1) [optimal UPOS tagging accuracy required] (PC1) for [neural] (EC2) [parsers] (PC2) [to achieve optimal parsing performance] (EC3)?
+What are [[the] (EC2) feasible and measurable strategies] (EC1) for [addressing] (PC1) the [privacy] (PC2) [concerns associated with Automatic Emotion Recognition (AER) systems] (EC3)?
+How do [various] (EC1) [backtranslation] (PC1) [techniques affect the performance] (EC2) of [the CUNI-Marian-Baselines system] (EC3) in [English-Czech news translation tasks] (EC4)?
+What is [the effectiveness] (EC1) of [target-based fine-grained sentiment analysis models] (EC2) on [a large-scale corpus] (EC3) of [Chinese financial news text] (EC4)?
+What is [the impact] (EC1) of [the Transformer model ensemble and data augmentation/selection techniques] (EC2) on [the English-to-Japanese and Japanese-to-English translation performance] (EC3) in [the WMT'22 general translation task] (EC4)?
+How can we [evaluate] (PC1) [the effectiveness] (EC1) of [different computational semantics approaches] (EC2) in [personal note-taking applications] (EC3)?
+What is [the optimal inter-annotator agreement measure] (EC1) for [multi-class, multi-label sentiment annotation] (EC2) of [messages] (EC3) in [Big Text analytics] (EC4)?
+What is [the performance] (EC1) of [sarcasm classification methods] (EC2) on [the newly constructed largest high-quality Chinese sarcasm] (EC3) dataset?
+How can we [measure] (PC1) [annotator bias] (EC1) in [abusive] (EC2) [language] (PC2) [datasets using the proposed methods] (EC3)?
+What is [the effectiveness] (EC1) of [the Dakshina dataset] (EC2) in [single word transliteration tasks] (EC3) for [various South Asian languages] (EC4)?
+What is [the impact] (EC1) of [fine-tuning XLM-RoBERTa] (EC2) on [a large artificial QE dataset and human-labeled dataset] (EC3) for [word-level and sentence-level translation quality estimation] (EC4)?
+What is [[the] (EC3) impact] (EC1) of [different frequency bursts] (EC2) on the [core] (PC1) [lexicon obtained from various web-derived corpora] (EC4)?
+Wh[a] (EC2)t is [the performance] (EC1) of a [smaller] (PC1) [ELECTRA pretraining model compared to a pretrained model] (EC3) in [a Japanese document classification task] (EC4)?
+How does [masking] (PC1) [known spurious topic carriers] (EC1) impact [the performance] (EC2) of [high-performance neural translationese classifiers] (EC3)?
+Could not map: Can a Recursive Multi-Attention model with a shared external memory updated over multiple gated iterations improve emotion recognition in multi-modal datasets?
+How can [computational lexical semantics] (EC1) be effectively [utilized] (PC1) [to enhance natural language understanding] (EC2)?
+How does [the pre-training and data augmentation] (EC1) of [transformer-based] (EC2) [neural] (PC1) [network models improve the quality] (EC3) of [low-resource Indic language translation] (EC4)?
+Does [a more discrete analysis] (EC1) of [dependency displacement lead] (EC2) to any [meaningful correlations] (EC3) with [the algorithm's parsing performance] (EC4)?
+Can [reviewer] (PC1) [level] (EC1) [evaluation] (PC2) [provide insights] (EC2) into [the writing styles] (EC3) of [different deceptive online reviewers] (EC4)?
+Wh[a] (EC3)t are [the optimal techniques] (EC1) for [lemmatization] (EC2) in a [term-specific] (PC1) [translation model to improve Exact Match metric performance] (EC4)?
+What are [promising] (PC1) [research directions] (EC1) for [developing] (PC2) [more fine-grained, detailed, fair, and practical fake news detection models] (EC2) in [NLP] (EC3)?
+What are [the universals] (EC1) of [borrowing] (PC1) [rhotic consonants] (EC2), as [revealed] (PC2) [by the SegBo database] (EC3)?
+How can [the computational efficiency] (EC1) of [pretraining models] (EC2) in [domain shift] (EC3) be [improved] (PC1) [for Japanese natural language processing tasks] (EC4)?
+What is [the feasibility and measurable impact] (EC1) of [implementing] (PC1) [an SSIE search service] (EC2) in [the field] (EC3) of [Computer Science] (EC4)?
+How robust is [the proposed new metric] (EC1) for [system-level MT evaluation] (EC2) in [handling] (PC1) [various Machine Translation directions] (EC3)?
+In [the context] (EC1) of [multilingual language models] (EC2), does [a "decontextual probe] (EC3)" [better] (EC4) [encode] (PC1) [crosslingual lexical correspondence compared to aligned monolingual language models] (EC5)?
+What is [the effectiveness] (EC1) of [the proposed measure] (EC2) in [detecting] (PC1) [spurious topic correlations] (EC3) in [high-performance neural translationese classifiers] (EC4)?
+How can [syllable-based convolution modules] (EC1) be [utilized] (PC1) [to improve the generalization ability] (EC2) of [morphological inflection models] (EC3) in [low-resource agglutinative languages] (EC4)?
+How can [the ArzEn corpus] (EC1) be [utilized] (PC1) [to improve Automatic Speech Recognition (ASR) systems] (EC2) for [Egyptian Arabic-English code-switching] (EC3) ([CS] (EC4))?
+[Can sentiment-oriented word embeddings] (EC1) outperform [general word embeddings] (EC2) in [predicting] (PC1) [investor sentiment] (EC3) in [stock market changes] (EC4)?
+What is [the effectiveness] (EC1) of [different code-switching agent strategies] (EC2) in [accommodating] (PC1) [users' language choice] (EC3) in [a Hindi-English human-machine dialogue system] (EC4)?
+How effective are [the family-agnostic sd-CRP algorithms] (EC1) in [inferring cognate clusters] (EC2) for [linguistically under-studied language families] (EC3)?
+How do [the] (EC1) [proposed] (PC1) [methods identify different perspectives] (EC2) on [abusive language] (EC3) across [four different datasets] (EC4)?
+How can [the impact] (EC1) of [annotation quality] (EC2) on [abusive language classifier performance] (EC3) be [mitigated] (PC1) [to achieve a more realistic class balance] (EC4)?
+How can [the BDCamões Collection] (EC1) of [Portuguese Literary Documents] (EC2) be [utilized] (PC1) [for effective authorship detection] (EC3) in [language technology] (EC4)?
+What is [the effectiveness] (EC1) of [the proposed Convolutional-Recurrent Neural Network] (EC2) in [detecting] (PC1) [both lexical and non-lexical (iconic) structures] (EC3) in [the Dicta-Sign-LSF-v2 French Sign Language corpus] (EC4)?
+What is [the optimal text representation] (EC1) for [improving] (PC1) [the performance] (EC2) of [neural classification models] (EC3) in [Brand-Product relation extraction] (EC4)?
+How does [the knowledge transfer mechanism] (EC1) of [different multilingual topic models] (EC2) perform under [various training conditions] (EC3)?
+What is [the effectiveness] (EC1) of [the proposed Document Access System] (EC2) in [improving] (PC1) [information] (EC3) [retrieval] (PC2) [accuracy compared to current bibliography methods] (EC4)?
+What is [the effectiveness] (EC1) of [current machine translation models] (EC2) in [discourse-level literary translation] (EC3), as [measured] (PC1) [by human judgments] (EC4)?
+How can [kernel] (PC1) [Canonical Correlation Analysis] (EC1) ([KCCA] (EC2)) [improve] (PC2) [cross-lingual] (EC3) [word] (PC3) [embeddings compared to linear-mapping-based approaches] (EC4)?
+How can we efficiently [compute] (PC1) [the derivational entropy] (EC1) of [left-to-right probabilistic finite-state automata] (EC2)?
+How can [the multi-pass sieve system] (EC1) be [optimized] (PC1) [to achieve higher MUC] (EC2) and [BCUBED F-measures] (EC3) in [Indonesian language coreference resolution] (EC4)?
+How can we [improve] (PC1) [the effectiveness] (EC1) of [neural-based detectors] (EC2) for [identifying] (PC2) [large language model-generated text] (EC3)?
+Can [structure-dependent] (PC1) [reduction operations in natural language contribute] (EC2) to [improved communicative efficiency] (EC3), as [demonstrated] (PC2) [in the design] (EC4) of [artificial languages] (EC5)?
+How can we [use] (PC1) [type-level] (EC1) [probing] (PC2) [tasks to estimate the downstream task performance] (EC2) of [multilingual] (EC3) [word embedding models] (EC4)?
+How can [the inter-annotator agreement] (EC1) for [offensive language annotation] (EC2) in [Romanian social media posts] (EC3) be [improved] (PC1) [to ensure consistent and reliable results] (EC4)?
+What [automated approaches] (EC1) can be [used] (PC1) [to extend the semagram base] (EC2) to [thousands] (EC3) of [concepts] (EC4)?
+How can we [measure] (PC1) [the semantic drift] (EC1) between [language families] (EC2) in [multilingual distributional representations] (EC3)?
+How can [the SQuAD2-CR dataset] (EC1) be [utilized to analyze] (PC1) and [improve] (PC2) [the interpretability] (EC2) of [existing reading comprehension model behavior] (EC3)?
+What is [the feasibility] (EC1) and [accuracy] (EC2) of [applying] (PC1) [UniMorph schema-based morphological analysis] (EC3) on [San Juan Quiahije Chatino language] (EC4)?
+C[a] (EC2)n [[the] (PC2) surprisal] (EC1) of a [word] (PC1) [predict] (EC3) the [N400 amplitude using recurrent neural networks] (EC4) in [various neurolinguistic studies] (EC5)?
+How effective is [a supervised machine learning model] (EC1) in [recognizing] (PC1) [mental health issues] (EC2) in [Brazilian Portuguese social media text] (EC3)?
+Could not map: What modifications can be made to the statistical analysis in the annotation curricula training process to ensure accurate p-value calculations?
+Could not map: Can a purely neural approach be developed for text normalization that eliminates the issue of unrecoverable errors?
+Can [automatic metrics] (EC1) be [used] (PC1) [to flag incorrect human ratings] (EC2) when [evaluating] (PC2) [machine translation systems] (EC3) in [the WMT20 News Translation Task] (EC4)?
+What [role] (EC1) does [co-occurrence information] (EC2) of [a particular semantic relation play] (EC3) in [the structural regularity] (EC4) of [neural word embeddings] (EC5)?
+How can [the shingling algorithm] (EC1) be [adapted] (PC1) [for online near-duplicate document detection] (EC2) in [real-time] (EC3) with [high precision] (EC4)?
+[Can the proposed commonsense knowledge base generation model] (EC1) effectively [augment data] (EC2) and [improve] (PC1) [the completion accuracy] (EC3) of [a commonsense knowledge base] (EC4)?
+Could not map: Can the linguistic generality encoded in the English Resource Grammar improve the parsing performance on cross-domain texts using a neural Maximum Subgraph parser?
+What is [the optimal context span] (EC1) for [a reliable machine translation evaluation] (EC2) across [different domains] (EC3) and [target languages] (EC4)?
+How can [a fine-grained distinction] (EC1) of [difficulty] (EC2) be [made] (PC1) [for domain-specific German closed noun compounds] (EC3), [based] (PC2) [on the presented dataset and annotation process] (EC4)?
+What are [the optimal methods] (EC1) for [acquiring] (PC1) [human scores] (EC2) in [the evaluation] (EC3) of [machine translation metrics] (EC4)?
+Could not map: How can high-speed retrieval be achieved from a large translation memory using a vector model for similarity evaluation?
+What is [the effectiveness] (EC1) of [a segment-based interactive machine translation approach] (EC2) for [the Word-Level AutoCompletion task] (EC3), as [demonstrated] (PC1) [in the WMT22 shared task] (EC4)?
+What is [the impact] (EC1) of [incorporating] (PC1) [hierarchical structure] (EC2) into [the Transformer architecture] (EC3) on [compositional generalization tasks] (EC4)?
+Could not map: Can the network embedding of a distributional thesaurus effectively detect co-hyponymy relations in natural language processing tasks?
+What is [the effectiveness] (EC1) of [the expansion approach] (EC2) in [building] (PC1) [a high-quality] (EC3), [human-curated] (PC2) [Old Javanese Wordnet, compared to other synset expansion methods] (EC4)?
+How can [the performance] (EC1) of [semantic similarity tasks] (EC2) be [improved] (PC1) [using a semagram-based knowledge model] (EC3) with [26 semantic relationships] (EC4)?
+What are [[the] (EC2) hierarchical relations] (EC1) between the [low-dimensional] (PC1) [subspaces encoding general and more specific linguistic categories] (EC3) in [ELMO and BERT models] (EC4)?
+What is [the real-time retrieval speed] (EC1) of [a large translation memory] (EC2) ([5 million segment pairs] (EC3)) [using] (PC1) [Lucene] (EC4) as [an open source information retrieval search engine] (EC5)?
+How does [the] (EC1) [brain] (PC1) [respond to congruent and incongruent feedback items] (EC2) in [human-human and human-machine interactions] (EC3), as [measured] (PC2) [by brain signals] (EC4)?
+What is [the impact] (EC1) of [synthetic story data] (EC2) on [the linguistic understanding] (EC3) of [GPT-Neo models] (EC4) in [low-resource language pre-training scenarios] (EC5)?
+[Can the availability] (EC1) of [singleton clusters] (EC2) and [non-referring expressions] (EC3) in [a dataset lead] (EC4) to [improved performance] (EC5) on [non-singleton coreference clusters] (EC6)?
+Could not map: What are the optimal distillation techniques for improving performance in data-limited settings, as demonstrated by the BabyLlama-2 model?
+What is [the impact] (EC1) of [the dual transfer technique] (EC2) on [the performance] (EC3) of [a standard Transformer model] (EC4) in [Very Low Resource Supervised Machine Translation] (EC5)?
+Could [the] (EC1) [entropy] (PC1) [distribution provide a more accurate representation] (EC2) of [the veridicality corpus] (EC3) in [Spanish] (EC4) [compared] (PC2) [to the current annotations] (EC5)?
+What are [the common scope] (EC1) and [content patterns] (EC2) in [fact-checks] (EC3), as [observed] (PC1) [from the FactCorp corpus] (EC4)?
+How does [the cognitive processing] (EC1) of [English] (EC2) [sentences] (PC1) [differ between natural reading and annotation tasks] (EC3), as [evidenced] (PC2) [by simultaneous eye-tracking and electroencephalography data] (EC4)?
+How can [a hierarchical neural network] (EC1) be [optimized] (PC1) [to leverage valuable information] (EC2) from [a person's past expressions] (EC3) for [a more accurate and user-specific sentiment analysis] (EC4)?
+How do [readability] (EC1) [features] (PC1) [contribute to the performance] (EC2) of [fake news detection models] (EC3) in [the Natural Language Processing area] (EC4) for [the Brazilian Portuguese language] (EC5)?
+Could not map: How can the development of a task-specific dialogue agent be optimized for automating structured clinical interviews in cognitive health screening tasks?
+What is [the performance improvement] (EC1) of [the hierarchical entity graph convolutional network] (EC2) ([HEGCN) model] (EC3) over [strong neural baselines] (EC4) for [two-hop relation extraction] (EC5)?
+What is [the necessity] (EC1) of [a specific type] (EC2) of [residual connection] (EC3) for [the Turing-completeness] (EC4) of [Transformer-based models] (EC5)?
+[Can Transformer-based models] (EC1) with [only positional masking] (EC2) and [no positional encoding] (EC3) still be Turing-[complete] (EC4)?
+What [metrics] (EC1) should be [used] (PC1) [to evaluate the performance] (EC2) of [a lifelong learning system] (EC3) in [a human-assisted learning context] (EC4)?
+What is [the impact] (EC1) of [the agile annotation approach] (EC2) on [the quality] (EC3) of [treebank annotation] (EC4) for [the Occitan language] (EC5)?
+What [potential] (EC1) does [the] (EC2) [BDCamões] (PC1) [Treebank subcorpus hold for genre classification] (EC3) in [language science] (EC4) and [digital humanities] (EC5)?
+What is [the impact] (EC1) of [language style] (EC2) on [users' perception] (EC3) of [a task-oriented conversational agent's human-likeness] (EC4) and [likeability] (EC5)?
+How can [the] (EC1) [long short-term memory (LSTM) attention mechanism] (EC2) be [optimized] (PC1) [to improve the consistency] (EC3) of [domain-specific term translations] (EC4) in [neural machine translation (NMT) systems] (EC5)?
+What is [the performance] (EC1) of [shallow] (EC2) [semantic] (PC1) [text features compared to deep semantic features] (EC3) in [a five-level classification] (EC4) of [texts] (EC5)?
+How can [a clear definition] (EC1) of [quality criteria] (EC2) in [human evaluation] (EC3) of [machine] (EC4) [translation] (PC1) [output improve inter-annotator agreement] (EC5)?
+Can [the processing time] (EC1) of [geological image analysis] (EC2) be [improved] (PC1) [using a combination] (EC3) of [parallelization] (EC4) and [optimized algorithms] (EC5)?
+Could not map: How can the performance of a translate-then-refine approach be improved in ensuring terminology correctness in machine translation?
+Could not map: Can the provided dataset, enriched with different forms of paper citation knowledge, improve academic information retrieval and filtering performance?
+How can [self-attention joint-learning] (EC1) be [used] (PC1) [to predict EEG-specific and clinically relevant concepts] (EC2) in [a large corpus] (EC3) of EEG [reports] (PC2)?
+What is [the impact] (EC1) of [ACL Membership Data] (EC2) on [the performance] (EC3) of [supervised] (EC4) [classification] (PC1) [models using a Transformer-based architecture] (EC5)?
+What is [the impact] (EC1) of [expanded human annotations] (EC2) on [News rankings] (EC3) and [downstream automatic evaluation metrics] (EC4) in [English-Inuktitut machine translation] (EC5)?
+How can we [design] (PC1) [an efficient composition] (EC1) of [domain] (EC2) [and] (PC2) [language adapters to maximize cross-lingual transfer] (EC3) in [the partial-resource Machine Translation scenario] (EC4)?
+Can [the fixation times] (EC1) of [human gaze] (EC2) during [reading] (PC1) [comprehension tasks] (EC3) be [used] (PC2) [to improve machine reading comprehension performance] (EC4)?
+Can [the processing time] (EC1) of [undergraduate curricula and computing conference applications] (EC2) be [optimized] (PC1) [through the use] (EC3) of [graphics] (EC4) and [interactive techniques] (EC5)?
+How do [various] (EC1) [compositional] (PC1) [splitting strategies affect the performance] (EC2) of [six modeling approaches] (EC3) on [different] (EC4) [datasets] (PC2) [designed to evaluate compositional generalization] (EC5)?
+What is [the effect] (EC1) of [the proposed dataset Splits2] (EC2) on [the performance] (EC3) of [machine learning models] (EC4) for [sentiment analysis tasks] (EC5)?
+How can [the] (EC1) [cross-lingual] (PC1) [referential corpora approach capture larger variation] (EC2) in [framing] (EC3) [compared] (PC2) [to traditional methods] (EC4) in [linguistic framing studies] (EC5)?
+What is [the effectiveness] (EC1) of [the adapted KWIC engine] (EC2) in [the Icelandic Gigaword Corpus] (EC3) for [Natural] (EC4) [Language] (PC1) [Processing tasks compared to the Swedish Korp tool] (EC5)?
+What is [the effectiveness] (EC1) of [using] (PC1) [the proposed WiMCor corpus] (EC2) in [training] (EC3) and [evaluating] (PC2) [automatic metonymy resolution systems] (EC4)?
+What [type-to-token based evaluation metric] (EC1) can be [used] (PC1) [to confirm the generalization] (EC2) of [morphosyntactic tools] (EC3) across [one thousand languages] (EC4)?
+How does [using] (PC1) [a] (EC1) [similar] (PC2) [bridge language affect knowledge-sharing] (EC2) among [the remaining languages] (EC3) in [a multilingual neural translation model] (EC4)?

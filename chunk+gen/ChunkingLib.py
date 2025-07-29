@@ -6,21 +6,9 @@ def mark_chunk(cq, spans, chunktype, offset, counter):
     for (start, end) in spans:  # for each span of EC/PC candidate
         cq = cq[:start - offset] + chunktype + str(counter) + \
              cq[end - offset:]  # substitute that candidate with EC/PC marker
-        offset += (end - start) - len(chunktype) - len(str(counter)) 
+        offset += (end - start) - len(chunktype) - len(str(counter)) # Correct offset calculation
     return cq, offset
 
-def mark_chunk_with_mapping(cq, spans, chunktype, offset, counter, mappings, original_text):
-    """Enhanced version that also tracks mappings"""
-    for (start, end) in spans:  # for each span of EC/PC candidate
-        # Store the mapping before replacement
-        chunk_text = cq[start - offset:end - offset]
-        marker_key = f"{chunktype}{counter}"
-        mappings[marker_key] = chunk_text
-        
-        cq = cq[:start - offset] + chunktype + str(counter) + \
-             cq[end - offset:]  # substitute that candidate with EC/PC marker
-        offset += (end - start) - len(chunktype) - len(str(counter)) 
-    return cq, offset
 
 def extract_EC_chunks(cq):
     """
@@ -98,12 +86,13 @@ def extract_EC_chunks(cq):
 
         ec = cq[start - offset:end - offset]  # extract text of potential EC, apply offsets
 
+        # FIXED: More thorough rejection check
         if (ec.lower().strip() in rejecting_ec or  # Check lowercase and stripped version
             ec.strip() == "" or  # Skip empty chunks
             len(ec.strip()) == 0):  # Skip whitespace-only chunks
             continue
 
-        # Check if this EC chunk is part of a question starter pattern
+        # FIXED: Check if this EC chunk is part of a question starter pattern
         # Find the token position of this EC chunk
         ec_start_token_idx = None
         for i, token in enumerate(doc):
@@ -111,6 +100,7 @@ def extract_EC_chunks(cq):
                 ec_start_token_idx = i
                 break
         
+        # Skip if this is part of a question starter pattern at the beginning
         if ec_start_token_idx is not None and ec_start_token_idx <= 2:
             skip_chunk = False
             for pattern in question_starter_patterns:
@@ -122,7 +112,7 @@ def extract_EC_chunks(cq):
             if skip_chunk:
                 continue
 
-        # check for single auxiliary verbs at start of question
+        # FIXED: Additional check for single auxiliary verbs at start of question
         if (chunk.start == 0 and len(chunk) == 1 and 
             chunk[0].pos_ in ['AUX', 'VERB'] and 
             chunk[0].text.lower() in ['do', 'does', 'can', 'could', 'will', 'would', 'should', 'is', 'are', 'was', 'were']):
@@ -140,6 +130,10 @@ def extract_EC_chunks(cq):
     try:
         if len(doc) >= 2:  # FIXED: Added length check
             if (doc[-2].pos_ == 'VERB' and len(doc) >= 3 and doc[-3].text in ['are', 'is', 'were', 'was'] and doc[-1].text == '?') or (doc[-2].pos_ in ['ADJ', 'ADV'] and doc[-1].text == '?'):
+                # if CQ ends with are/is/were/was + VERB + ? or the last token is ADJective or ADVerb, treat the
+                # verb / adverb / adjective as EC
+                # Which animals are endangered -> endangered is EC
+                # Which animals are quick -> quick is EC
                 if doc[-2].text.lower() not in rejecting_ec:
                     start = doc[-2].idx
                     end = start + len(doc[-2])
@@ -152,126 +146,6 @@ def extract_EC_chunks(cq):
 
     return cq
 
-def extract_EC_chunks_with_mapping(cq, mappings=None):
-    """Enhanced version that tracks mappings"""
-    if mappings is None:
-        mappings = {}
-        
-    def _get_EC_span_reject_wh_starters(chunk):
-        if (len(chunk) > 1 and
-                (chunk[0].text.lower().startswith("wh")) or
-                (chunk[0].text.lower() == 'how')):
-            chunk = chunk[1:]
-
-        if len(chunk) > 0 and chunk[0].text.lower() in ['any', 'some', 'many', 'well', 'its']:
-            chunk = chunk[1:]
-
-        return (chunk.start_char, chunk.end_char) if len(chunk) > 0 else None
-
-    doc = nlp(cq)
-    original_cq = cq  # Store original for mapping
-
-    rejecting_ec = ["does", "do", "can", "could", "will", "would", "should", "shall", "may", "might",
-                    "what", "which", "when", "where", "who", "whom", "whose", "why", "how",
-                    "type", "types", "kinds", "kind", "category", "categories", "difference",
-                    "differences", "extent", "i", "we", "respect", "there", "this", "that", "these", "those",
-                    "not", "the main types", "the possible types", "the types",
-                    "the difference", "the differences", "the main categories",
-                    "is", "are", "was", "were", "have", "has", "had", "been", "being", "be",
-                    "how can", "what can", "when can", "where can", "why can", "which can"]
-    
-    question_starter_patterns = [
-        ['how', 'can'], ['how', 'do'], ['how', 'does'], ['how', 'will'], ['how', 'would'],
-        ['how', 'should'], ['how', 'could'], ['how', 'might'], ['how', 'may'],
-        ['what', 'can'], ['what', 'do'], ['what', 'does'], ['what', 'will'], ['what', 'would'],
-        ['when', 'can'], ['when', 'do'], ['when', 'does'], ['when', 'will'], ['when', 'would'],
-        ['where', 'can'], ['where', 'do'], ['where', 'does'], ['where', 'will'], ['where', 'would'],
-        ['why', 'can'], ['why', 'do'], ['why', 'does'], ['why', 'will'], ['why', 'would'],
-        ['which', 'can'], ['which', 'do'], ['which', 'does'], ['which', 'will'], ['which', 'would']
-    ]
-
-    counter = 1
-    offset = 0
-
-    # Handle "How + ADJ + VERB" pattern
-    if (len(doc) > 2 and
-            doc[0].text.lower() == 'how' and
-            doc[1].pos_ == 'ADJ' and
-            doc[2].pos_ == 'VERB'):
-
-        start = doc[1].idx
-        end = start + len(doc[1])
-        
-        # Store mapping
-        mappings[f"EC{counter}"] = doc[1].text
-
-        cq, offset = mark_chunk(cq, [(start, end)], "EC", offset, counter)
-        counter += 1
-
-    for chunk in doc.noun_chunks:
-        span_result = _get_EC_span_reject_wh_starters(chunk)
-        
-        if span_result is None:
-            continue
-            
-        (start, end) = span_result
-
-        ec = original_cq[start:end]  # Use original text for mapping
-
-        if (ec.lower().strip() in rejecting_ec or
-            ec.strip() == "" or
-            len(ec.strip()) == 0):
-            continue
-
-        # Check question starter patterns
-        ec_start_token_idx = None
-        for i, token in enumerate(doc):
-            if token.idx >= start and token.idx < end:
-                ec_start_token_idx = i
-                break
-        
-        if ec_start_token_idx is not None and ec_start_token_idx <= 2:
-            skip_chunk = False
-            for pattern in question_starter_patterns:
-                if (len(doc) > len(pattern) and 
-                    ec_start_token_idx < len(pattern) and
-                    all(doc[j].text.lower() == pattern[j] for j in range(len(pattern)) if j < len(doc))):
-                    skip_chunk = True
-                    break
-            if skip_chunk:
-                continue
-
-        if (chunk.start == 0 and len(chunk) == 1 and 
-            chunk[0].pos_ in ['AUX', 'VERB'] and 
-            chunk[0].text.lower() in ['do', 'does', 'can', 'could', 'will', 'would', 'should', 'is', 'are', 'was', 'were']):
-            continue
-
-        if "the thing" in ec and end - start > len("the thing"):
-            mappings[f"EC{counter}"] = "the"
-            mappings[f"EC{counter + 1}"] = "thing"
-            cq = cq[:start - offset] + "EC" + str(counter) + \
-                 " EC" + str(counter + 1) + cq[end - offset:]
-            counter += 2
-            offset += (end - start) - 7
-        else:
-            mappings[f"EC{counter}"] = ec
-            cq, offset = mark_chunk(cq, [(start, end)], "EC", offset, counter)
-            counter += 1
-
-    try:
-        if len(doc) >= 2:
-            if (doc[-2].pos_ == 'VERB' and len(doc) >= 3 and doc[-3].text in ['are', 'is', 'were', 'was'] and doc[-1].text == '?') or (doc[-2].pos_ in ['ADJ', 'ADV'] and doc[-1].text == '?'):
-                if doc[-2].text.lower() not in rejecting_ec:
-                    start = doc[-2].idx
-                    end = start + len(doc[-2])
-                    
-                    mappings[f"EC{counter}"] = doc[-2].text
-                    cq, offset = mark_chunk(cq, [(start, end)], "EC", offset, counter)
-                    counter += 1
-    except Exception as e:
-        print('Error processing. Doc = ', doc, 'Error:', e)
-
-    return cq, mappings
 
 def get_PCs_as_spans(cq):
     def _is_auxilary(token, chunk_token_ids):
@@ -350,13 +224,16 @@ def get_PCs_as_spans(cq):
     spans = _reject_subspans(spans)  # reject sub-spans
     return spans
 
+
 def extract_PC_chunks(cq):
+    # FIXED: Enhanced rejecting_pc list with more auxiliary verbs and modal verbs
     rejecting_pc = ['is', 'are', 'was', 'were', 'do', 'does', 'did', 
                     'have', 'had', 'has', 'can', 'could', 'will', 'would', 
                     'should', 'shall', 'may', 'might', 'must', 'be', 'been', 'being',
                     'categorise', 'regarding', 'is of', 'are of', 'are in', 
                     'given', 'is there', 'are there', 'was there', 'were there']
 
+    # FIXED: Add specific rejection patterns for question starters
     doc = nlp(cq)
     question_starter_patterns = [
         ['how', 'can'], ['how', 'do'], ['how', 'does'], ['how', 'will'], ['how', 'would'],
@@ -374,12 +251,13 @@ def extract_PC_chunks(cq):
     for begin, end, aux in get_PCs_as_spans(cq):
         pc_text = cq[begin - offset:end - offset]
         
+        # FIXED: More thorough rejection check for PC chunks
         if (pc_text.lower().strip() in rejecting_pc or
             pc_text.strip() == "" or
             len(pc_text.strip()) == 0):
             continue
 
-        # Check if this PC chunk is part of a question starter pattern
+        # FIXED: Check if this PC chunk is part of a question starter pattern
         # Find the token position of this PC chunk
         pc_start_token_idx = None
         for i, token in enumerate(doc):
@@ -401,7 +279,7 @@ def extract_PC_chunks(cq):
 
         spans = [(begin, end)]
 
-        # check if auxiliary should be rejected
+        # FIXED: Also check if auxiliary should be rejected
         if aux and aux.text.lower() not in rejecting_pc:
             # Additional check: don't include aux if it's part of question starter
             aux_skip = False
@@ -420,95 +298,3 @@ def extract_PC_chunks(cq):
         counter += 1
 
     return cq
-
-def extract_PC_chunks_with_mapping(cq, mappings=None):
-    """Enhanced version that tracks mappings"""
-    if mappings is None:
-        mappings = {}
-        
-    original_cq = cq  # Store original for mapping
-    
-    rejecting_pc = ['is', 'are', 'was', 'were', 'do', 'does', 'did', 
-                    'have', 'had', 'has', 'can', 'could', 'will', 'would', 
-                    'should', 'shall', 'may', 'might', 'must', 'be', 'been', 'being',
-                    'categorise', 'regarding', 'is of', 'are of', 'are in', 
-                    'given', 'is there', 'are there', 'was there', 'were there']
-
-    doc = nlp(cq)
-    question_starter_patterns = [
-        ['how', 'can'], ['how', 'do'], ['how', 'does'], ['how', 'will'], ['how', 'would'],
-        ['how', 'should'], ['how', 'could'], ['how', 'might'], ['how', 'may'],
-        ['what', 'can'], ['what', 'do'], ['what', 'does'], ['what', 'will'], ['what', 'would'],
-        ['when', 'can'], ['when', 'do'], ['when', 'does'], ['when', 'will'], ['when', 'would'],
-        ['where', 'can'], ['where', 'do'], ['where', 'does'], ['where', 'will'], ['where', 'would'],
-        ['why', 'can'], ['why', 'do'], ['why', 'does'], ['why', 'will'], ['why', 'would'],
-        ['which', 'can'], ['which', 'do'], ['which', 'does'], ['which', 'will'], ['which', 'would']
-    ]
-
-    offset = 0
-    counter = 1
-
-    for begin, end, aux in get_PCs_as_spans(cq):
-        # Get original text for mapping (handle potential EC markers in current cq)
-        original_pc_text = None
-        
-        # Try to find corresponding text in original question
-        temp_doc = nlp(original_cq)
-        for token in temp_doc:
-            if (token.pos_ in ['VERB', 'AUX'] and 
-                token.text.lower() not in rejecting_pc):
-                if not original_pc_text:  # Take first valid verb as PC
-                    original_pc_text = token.text
-                    break
-        
-        pc_text = cq[begin - offset:end - offset]
-        
-        if (pc_text.lower().strip() in rejecting_pc or
-            pc_text.strip() == "" or
-            len(pc_text.strip()) == 0):
-            continue
-
-        # Check question starter patterns
-        pc_start_token_idx = None
-        for i, token in enumerate(doc):
-            if token.idx >= begin and token.idx < end:
-                pc_start_token_idx = i
-                break
-        
-        if pc_start_token_idx is not None and pc_start_token_idx <= 2:
-            skip_chunk = False
-            for pattern in question_starter_patterns:
-                if (len(doc) > len(pattern) and 
-                    pc_start_token_idx < len(pattern) and
-                    all(doc[j].text.lower() == pattern[j] for j in range(len(pattern)) if j < len(doc))):
-                    skip_chunk = True
-                    break
-            if skip_chunk:
-                continue
-
-        spans = [(begin, end)]
-        
-        # Store main PC mapping
-        if original_pc_text:
-            mappings[f"PC{counter}"] = original_pc_text
-        else:
-            # Fallback to current text if we can't find original
-            mappings[f"PC{counter}"] = pc_text
-
-        if aux and aux.text.lower() not in rejecting_pc:
-            aux_skip = False
-            if aux.i <= 2:
-                for pattern in question_starter_patterns:
-                    if (len(doc) > len(pattern) and
-                        aux.i < len(pattern) and
-                        all(doc[j].text.lower() == pattern[j] for j in range(len(pattern)) if j < len(doc))):
-                        aux_skip = True
-                        break
-            
-            if not aux_skip:
-                spans.insert(0, (aux.idx, aux.idx + len(aux)))
-
-        cq, offset = mark_chunk(cq, spans, "PC", offset, counter)
-        counter += 1
-
-    return cq, mappings
