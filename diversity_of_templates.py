@@ -2,7 +2,7 @@ import csv
 from collections import Counter
 
 # Input and output file paths
-input_csv_path = 'cnl_output/llama_templates_mappings.csv'
+input_csv_path = 'cnl_output/llama.csv'
 output_csv_path = 'llama_template_patterns.csv'
 
 # Count frequencies

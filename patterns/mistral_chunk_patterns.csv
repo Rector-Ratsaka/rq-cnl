@@ -1,0 +1,451 @@
+EC1 chunks,EC1 frequency,EC2 chunks,EC2 frequency,EC3 chunks,EC3 frequency,EC4 chunks,EC4 frequency,EC5 chunks,EC5 frequency,PC1 chunks,PC1 frequency,PC2 chunks,PC2 frequency
+the performance,51,the performance,161,the performance,134,the performance,135,the performance,87,using,437,using,273
+the context,49,the accuracy,58,terms,46,terms,76,terms,69,ec1,167,compared to,196
+effectiveness,32,the quality,29,the-art,33,it,34,it,48,affect,164,improving,83
+the effectiveness,29,terms,25,the accuracy,31,the-art,29,the accuracy,35,improve,140,improve,66
+the use,27,the effectiveness,22,the quality,23,the quality,29,the-art,31,improving,133,compare to,62
+it,27,llms,14,machine translation,18,the accuracy,28,english,27,compared to,85,considering,59
+ways,26,large language models,13,accuracy,17,english,28,performance,26,identifying,66,affect,54
+the accuracy,25,language models,13,english,16,machine translation,24,accuracy,26,incorporating,59,based on,31
+the-art,25,the use,13,-,15,performance,19,they,22,predicting,52,ec8,29
+impact,24,the-art,13,words,14,impact,19,machine translation,20,compare to,47,contribute to,28
+factors,24,bert,12,bert,13,accuracy,17,the context,16,considering,38,identifying,27
+evaluation metrics,20,-,12,performance,12,the context,15,impact,15,evaluating,38,measured by,24
+large language models,18,speech,12,llms,11,-,12,the quality,12,generating,36,generating,24
+machine translation systems,15,domain,12,languages,11,words,12,text,11,detecting,36,predicting,24
+strategies,15,performance,11,sentences,11,nlp,11,-,10,learning,36,maintaining,24
+the quality,13,word embeddings,11,they,11,training,11,languages,10,combining,35,demonstrated by,23
+the combination,12,training,11,training,11,they,11,factors,10,improved,34,trained on,22
+a supervised classification model,12,back-translation,10,nlp,10,various languages,11,translations,9,to improve,33,have on,20
+methods,12,information,10,the use,10,word embeddings,11,comparison,9,achieving,33,applied to,19
+the efficiency,12,words,9,it,10,the development,9,various languages,8,training,32,evaluating,18
+the proposed method,12,errors,9,language models,10,languages,9,processing time,8,translating,32,to improve,18
+end,12,models,9,neural machine translation,9,neural machine translation,9,spanish,8,contribute to,29,learning,17
+techniques,11,text,9,the context,9,different languages,9,their performance,8,used to measure,29,incorporating,16
+the proposed approach,11,high accuracy,8,efficiency,9,models,9,domain,8,creating,29,shared,16
+a model,11,machine translation,8,the effectiveness,9,domain,9,this approach,8,based,28,analyzing,15
+the potential,11,effectiveness,7,speech,7,sentences,9,speech,8,employing,24,detecting,15
+sequence,11,features,7,the development,7,spanish,8,the use,7,based on,24,predict,14
+machine learning models,10,end,7,the translation,7,processing time,8,task,7,measuring,22,based,14
+the distribution,10,natural language processing,6,the identification,7,bert,8,the number,7,trained on,22,answering,13
+the incorporation,10,different types,6,text,7,speech,8,insights,7,utilizing,21,enhancing,13
+the factors,10,the translation,6,word embeddings,7,results,8,models,7,reducing,20,achieving,13
+metrics,9,weaknesses,6,models,7,fine-tuning,8,nlp,7,develop,20,classifying,12
+deep learning models,9,machine translation models,6,sequence,7,german,7,the development,7,integrating,20,utilizing,12
+the application,9,the proposed method,6,fine-tuning,7,transformer-based models,7,translation,7,utilized to improve,19,extracting,12
+the addition,8,data,6,word,7,information,7,the impact,7,parsing,19,identify,12
+the proposed model,8,the identification,6,domain,7,translations,7,neural machine translation,7,provide,18,to achieve,11
+back-translation,8,sequence,6,the training,6,their performance,7,natural language processing,6,extracting,18,including,11
+data augmentation,7,the development,5,low-resource languages,6,human judgments,7,data,6,applied to,18,handling,11
+the inclusion,7,the correlation,5,errors,6,data,7,texts,6,used to assess,18,provide,10
+the training,7,utterances,5,a sentence,6,recurrent neural networks,6,translation quality,6,named,18,to enhance,10
+the precision,7,neural machine translation,5,large language models,6,quality,6,sentences,6,to achieve,17,addressing,10
+the characteristics,7,sentences,5,under-resourced languages,6,the efficiency,6,french,6,capturing,17,demonstrated in,10
+computational methods,7,accuracy,5,their performance,6,nmt,6,bert,6,applying,17,focusing on,10
+the integration,7,the robustness,5,back-translation,6,translation quality,6,other languages,6,embedding,17,impact,10
+deep learning methods,7,lstm,5,ner,6,multiple languages,6,quality,6,impact,17,building,9
+machine translation,7,documents,5,machine translation systems,5,this approach,6,them,6,proposed,17,linking,9
+the structure,7,backtranslation,5,human judgments,5,low-resource languages,6,ability,6,handling,16,reducing,9
+domain,7,word,5,texts,5,factors,6,context,6,developing,16,training,9
+the optimal methods,6,challenges,5,the robustness,5,relation extraction,6,end,6,including,16,embedding,9
+automatic metrics,6,language,5,french,5,twitter,6,machine translation models,5,ec8,16,translating,9
+machine translation models,6,multi-task learning,5,evaluation metrics,5,french,6,existing methods,5,achieve,15,compare in,9
+transformer models,6,a combination,5,machine translation tasks,5,end,6,machine translation systems,5,trained,15,to learn,9
+computational models,6,neural networks,5,the translation quality,5,brazilian portuguese,6,different languages,5,enhance,15,pairs,9
+the performance differences,6,sentiment,5,the precision,5,ner,6,training,5,demonstrated by,15,combining,8
+the efficacy,6,back translation,5,transformer models,5,machine translation systems,5,the results,5,used,15,capture,8
+the challenges,6,the reliability,4,transformer,5,text classification tasks,5,efficiency,5,annotating,15,used in,8
+word embeddings,6,the transformer architecture,4,pre-trained language models,5,the task,5,wikipedia,5,compare,15,achieve,8
+the alignment,6,the annotation,4,the results,5,mwes,5,the task,5,addressing,14,improved,8
+training,6,the improvement,4,context,5,tasks,5,features,5,improved using,14,compare,8
+speech,6,the coherence,4,forward translation,5,corpora,5,bleu,5,predict,13,reduce,8
+data,6,the efficiency,4,the bleu score,4,large language models,5,a knowledge base,5,optimized to improve,13,to ec8,8
+conditions,6,the training,4,german,4,other models,5,language models,5,vary,13,used,8
+an ensemble,6,the process,4,the translation accuracy,4,the translation quality,5,inter-annotator agreement,4,classifying,13,supervised,8
+-,6,neural machine translation systems,4,the transformer model,4,the success,5,classification,4,supervised,13,named,8
+performance,6,the detection,4,machine learning models,4,different types,5,low-resourced languages,4,adapting,12,developing,7
+ner,6,the translation quality,4,tasks,4,comparison,5,sentence embeddings,4,shared,12,learn,7
+the impact,5,knowledge,4,the representation,4,llms,5,low-resource languages,4,improved for,11,observed in,7
+the,5,they,4,effectiveness,4,back translation,5,evaluation metrics,4,recognizing,11,containing,7
+the introduction,5,algorithm,4,the correlation,4,entities,5,japanese,4,ensuring,11,handle,7
+the comparative performance,5,translation quality,4,natural language processing tasks,4,the overall performance,5,understanding,4,maintaining,11,existing,7
+the development,5,a transformer-based architecture,4,natural language processing,4,monolingual data,5,corpora,4,enhancing,11,evaluated using,7
+effective methods,5,language modeling,4,combinatory categorial grammar,4,the bleu score,5,dependency parsing,4,assessing,11,e improved,7
+transformer-based architectures,5,different languages,4,a question,4,upper sorbian,5,text classification tasks,4,learn,11,compare with,7
+the optimal method,5,the bleu scores,4,the ability,4,the impact,5,a corpus,4,identify,10,to capture,7
+the feasible methods,5,mwes,4,consistency,4,hindi,5,human judgements,4,utilized for,10,enhance,7
+the robustness,5,corpora,4,transformer-based models,4,the reliability,4,the bleu score,4,encoding,10,outperforming,6
+the transformer model,5,languages,4,corpora,4,systems,4,wmt,4,converting,10,to predict,6
+a combination,5,comparison,4,the challenges,4,better performance,4,named entities,4,have on,10,to identify,6
+bert,5,french,4,the bleu scores,4,natural language processing,4,russian,4,used to improve,10,evaluate,6
+the correlation,5,transformer models,4,techniques,4,the extraction,4,the key factors,4,facilitating,10,selecting,6
+a machine learning model,5,this paper,4,translations,4,translation,4,catalan,4,ec1 for,10,shown in,6
+transformer-based models,5,algorithms,4,documents,4,text classification,4,large language models,4,ec1 using,10,providing,6
+a classifier,5,relations,4,bpe,4,texts,4,these methods,4,developed,10,capturing,6
+transformer-based language models,5,entities,4,named entity recognition,4,pre-trained language models,4,upper sorbian,4,perform,10,modeling,6
+pre-trained models,5,human evaluation,4,translation,4,images,4,bleu scores,4,perform in,10,related to,6
+the results,5,the context,4,time,4,news translation,4,a focus,4,existing,10,maintain,6
+the method,5,low-resource languages,4,the efficiency,4,the evaluation,4,word embeddings,4,evaluated using,10,correcting,6
+the proposed methods,4,data selection,4,features,4,language resources,4,tasks,4,used to evaluate,9,categorizing,6
+a supervised machine learning model,4,an ensemble,4,relationships,4,relation,4,under-resourced languages,4,building,9,perform,6
+the optimal strategies,4,nlp,4,processing time,4,task,4,the translation quality,4,designed,9,associated with,5
+the strengths,4,knowledge distillation,4,parallel corpora,4,entity,4,convolutional neural networks,4,answering,9,to generate,5
+accuracy,4,english,4,joint learning,4,xlm-roberta,4,the identification,4,optimized,9,ensuring,5
+the design,4,idioms,4,information,4,downstream tasks,4,the field,4,selecting,9,meaning,5
+the usage,4,a language model,4,data,4,russian,4,hindi,4,analyzing,9,dealing with,5
+the potential impact,4,lemmatization,3,users,4,existing methods,4,coverage,4,aligning,9,producing,5
+improvements,4,the interpretability,3,word2vec,4,the translation,4,the purpose,4,extending,8,", compared",5
+a neural language model,4,the high performance,3,tweets,4,data augmentation,4,word,4,decoding,8,of ec1 comp,5
+the key factors,4,the generalization,3,questions,4,the ability,4,concepts,4,compare with,8,measure,5
+the choice,4,processing time,3,existing methods,4,a model,4,a model,4,trained using,8,combines,5
+the size,4,larger parameter sizes,3,end,4,bleu scores,4,better performance,4,augmenting,8,indicated by,5
+neural machine translation systems,4,transfer learning,3,the evaluation,3,a corpus,4,downstream nlp tasks,3,containing,8,utilized to improve,5
+the feasibility,4,method,3,a combination,3,the proposed method,4,words,3,producing,8,1 compare,5
+the reliability,4,byte pair encoding,3,human evaluation,3,the effectiveness,4,sign language translation,3,reduce,8,interpreting,5
+the approach,4,the classification accuracy,3,multiple languages,3,tamil,4,llms,3,ec1 in,7,preserving,5
+the performance comparison,4,the predictions,3,supervised classification models,3,back-translation,4,biomedical translation tasks,3,capture,7,address,5
+the proposed neural network model,4,the evaluation,3,factors,3,machine learning models,4,multiple languages,3,utilized to develop,7,use,5
+transfer learning,4,multilingual models,3,emotion detection,3,lack,4,evaluation,3,applied to improve,7,annotating,5
+the potential benefits,4,offensive language,3,competitive results,3,the consistency,4,improved accuracy,3,transferring,7,utilizes,5
+word embedding models,4,the task,3,higher accuracy,3,model ensemble,4,the training data,3,used to compare,7,trained with,5
+inter-annotator agreement,4,bert embeddings,3,robustness,3,language,3,deep learning models,3,demonstrate,7,trained,5
+the potential applications,4,the precision,3,the task,3,the results,3,the analysis,3,differ,7,employs,5
+a transformer-based model,4,efficiency,3,mwes,3,a transformer-based architecture,3,computational efficiency,3,modeling,7,used to improve,4
+the construction,4,graph theory,3,improved performance,3,the need,3,domains,3,providing,7,understanding,4
+the absence,4,hate speech,3,universal dependencies,3,the training data,3,named entity recognition,3,utilized to enhance,6,combined with,4
+the degree,4,named entities,3,training data,3,tweets,3,improved performance,3,optimized to achieve,6,labeling,4
+the extent,4,the annotation process,3,the generation,3,natural language processing tasks,3,german,3,measured by,6,produced by,4
+the translation,4,time,3,account,3,topics,3,the alignment,3,outperform,6,contributing to,4
+comparison,4,changes,3,diversity,3,machine translation models,3,the language,3,used to identify,6,representing,4
+way,4,relation extraction,3,dialogue acts,3,wmt,3,social media platforms,3,to ensure,6,provided,4
+neural models,4,nmt models,3,downstream applications,3,high accuracy,3,african languages,3,to enhance,6,evaluated on,4
+the number,4,answers,3,other systems,3,readability,3,implications,3,linking,6,outperform,4
+transfer,4,bpe,3,sentiment analysis,3,bangla,3,different language pairs,3,measured,6,facilitating,4
+information,4,the syntactic correctness,3,lms,3,the current state,3,xlm-r,3,to develop,6,comparing,4
+a multi-task learning approach,4,transformers,3,a language model,3,nmt systems,3,gender,3,employed,6,proposed,4
+text,4,fine-tuning,3,translation quality,3,effectiveness,3,annotated corpora,3,collecting,6,lead to,4
+language models,4,quality,3,the annotation,3,african languages,3,machine learning models,3,address,6,reveal,4
+role,3,a neural machine translation,3,deep learning,3,competitive performance,3,the efficiency,3,comparing,6,derived from,4
+the processing time,3,information extraction,3,other models,3,the purpose,3,pre-trained language models,3,constructing,6,provided by,4
+specific factors,3,coherence,3,vocabulary,3,semantic similarity,3,parameters,3,preserving,6,contexts,4
+a supervised learning model,3,the consistency,3,pretrained language models,3,features,3,neural machine translation models,3,processing,6,tively incorporat,4
+the most effective method,3,sentence length,3,wolof,3,emotion,3,norwegian,3,optimize,6,grained,4
+the stability,3,it,3,the challenge,3,natural language,3,a combination,3,adding,6,parsing,4
+the proposed measure,3,an attention mechanism,3,changes,3,the number,3,information technology,3,reading,5,set,4
+the performances,3,vectors,3,length,3,the transformer model,3,lemmatization,3,used for,5,represent,4
+the analysis,3,a computational model,3,terminology constraints,3,chinese,3,the evaluation,3,contributed to,5,minimizing,4
+the role,3,the inclusion,3,different language pairs,3,the coverage,3,multilingual translation systems,3,trained with,5,tuned with,4
+properties,3,verbs,3,the prediction,3,a dataset,3,conditions,3,explaining,5,used to measure,4
+the behavior,3,the proposed model,3,concepts,3,datasets,3,these models,3,focusing on,5,measured,4
+the annotation scheme,3,word sense disambiguation,3,(nmt) system,3,the legal domain,3,the training,3,demonstrated in,5,detect,4
+the specific factors,3,ner,3,parallel data,3,training data,3,swedish,3,ensembling,5,converting,4
+the generalizability,3,constraints,3,news,3,the medical domain,3,patterns,3,tuning,5,perform in,4
+the bleu score,3,techniques,3,translation performance,3,computer science,3,role,3,observed in,5,mitigate,4
+the improvements,3,vlms,3,knowledge distillation,3,embeddings,3,effectiveness,3,identified,5,as demonstrated,4
+a transformer-based architecture,3,the representation,3,a corpus,3,the identification,3,arabic,3,implementing,5,reading,4
+the coverage,3,word2vec,3,annotations,3,their ability,3,utterances,3,representing,5,uses,4
+a significant difference,3,sentiment analysis,3,resources,3,gender,3,nli,3,compare in,5,have for,4
+the multimodal corpus,3,tweets,3,shared task,3,documents,3,the english,3,optimizing,5,generate,4
+the performance metrics,3,the impact,3,elmo,3,machine translation tasks,3,model performance,3,increasing,5,includes,4
+the proposed dataset,3,annotation projection,3,different languages,3,implications,3,coreference resolution,3,understanding,5,integrating,4
+the optimal number,3,the language,3,the coherence,3,examples,3,neural machine translation systems,3,generated by,5,evidenced by,3
+best practices,3,the ability,3,neural machine translation systems,3,mt,3,chinese,3,correcting,5,estimate,3
+different types,3,annotation,3,compare,3,existing models,3,robustness,3,disambiguating,5,proposed in,3
+the similarity,3,translations,3,images,3,the challenge,3,the fluency,3,distinguishing,5,s ec1 perf,3
+the proposed neural model,3,subjectivity,3,bulgarian,3,the english-german language pair,3,a system,3,to ec7,5,to handle,3
+rules,3,a corpus,3,spanish,3,pretrained language models,3,this performance,3,pairs,5,recognize,3
+the specific improvements,3,the training data,3,reliability,3,precision,3,the implications,3,used to determine,5,supporting,3
+the creation,3,objects,3,quality estimation,3,humans,3,shared task,3,sequence,5,to outperform,3
+data augmentation methods,3,the design,3,high accuracy,3,supervised neural machine translation systems,3,different types,3,performing,5,consisting of,3
+bert-based models,3,parallel data,3,attention,3,the process,3,the translation,3,set,5,preserve,3
+the key differences,3,entity,3,pairs,3,the detection,3,editing,3,uses,5,1 were empl,3
+bt,3,noun phrases,3,strong baselines,3,synthetic data,3,czech,3,combines,5,shown by,3
+neural network models,3,data augmentation,3,translation tasks,3,neural models,3,errors,3,to generate,5,assess,3
+can large language models,3,the training process,2,language,3,usefulness,3,marathi,3,utilizes,5,1 be improv,3
+a convolutional neural network,3,multilingual language models,2,different types,3,class labels,3,nmt,3,includes,5,es ec1,3
+various methods,3,human scores,2,relations,3,tokenization,3,transfer learning,3,use,4,to perform,3
+the bert model,3,difficulty,2,various languages,3,sequence,3,entities,3,acquiring,4,grounding,3
+knowledge distillation,3,a large translation memory,2,them,3,multilingual bert,3,sentiment,3,design,4,adapting,3
+udpipe,3,explanations,2,back translation,3,improvements,3,the challenges,3,used to predict,4,designed for,3
+multilingual models,3,the one,2,utterances,3,(ccg,3,event detection,3,obtained from,4,ec1 base,3
+the proposed annotation scheme,3,sentence-level translation models,2,reasoning,3,ensemble knowledge distillation,3,the model,3,developed for,4,aligning,3
+data filtering,3,computational resource grammars,2,tokenization,3,(mt) systems,3,sinhala,3,utilized to identify,4,evaluated,3
+relevance,3,selective fine-tuning,2,document-level novelty detection,2,speed,3,ner,3,achieved,4,encoding,3
+sentences,3,fasttext word embeddings,2,high-performance neural translationese classifiers,2,the generative pre-trained transformer,2,openai gpt,2,graph,4,collecting,3
+a multilingual model,3,seq2seq models,2,abusive language,2,concepts,2,live sport commentaries,2,adapt,4,to train,3
+the optimal size,3,users' perception,2,thousands,2,the wmt20 news translation task,2,manual annotation,2,influence,4,generated from,3
+models,3,the stability,2,romanian social media posts,2,target languages,2,online news and media content,2,vary across,4,can ec1,3
+neural machine translation,3,other models,2,different domains,2,cross-domain texts,2,a wide range,2,exploiting,4,classify,3
+the ability,3,improved translation quality,2,cross-lingual transfer,2,lucene,2,the babyllama model,2,finding,4,reflect,3
+data augmentation strategies,3,german tweets,2,a large corpus,2,different datasets,2,human behavior,2,expanding,4,differ between,3
+data selection,3,humans,2,the consistency,2,multilingual settings,2,the overall performance,2,used to learn,4,to ec7,3
+context,3,the trade-off,2,the analysis,2,filler-gap dependencies,2,depression classification,2,addressed to improve,4,obtaining,3
+words,3,sentence embeddings,2,hungarian propaganda discourse,2,intractable f-structures,2,alignment,2,simplifying,4,mitigating,3
+the optimal techniques,2,gender biases,2,runyankore and rukiga languages,2,irony detection,2,news articles,2,determine,4,measuring,3
+the inter-annotator agreement,2,initialization,2,claim verification,2,transformer-based architectures,2,parsing and machine translation,2,contributing to,4,addressed to improve,3
+readability features,2,the newly developed german federal court decisions,2,various language pairs,2,the translation accuracy,2,the wmt 2022 shared task,2,varying,4,to create,3
+potential,2,the significant improvement,2,an unsupervised manner,2,gpt-2,2,reference translations,2,used to develop,4,improved using,3
+the optimal strategy,2,latent variables,2,dependency parsing,2,existing datasets,2,sentiment analysis,2,influencing,4,finding,3
+the consistency,2,testing,2,treebank annotation,2,conversational dialog systems,2,the creation,2,developed to improve,4,algorithms,3
+user satisfaction,2,label,2,relevancy,2,transformer language models,2,the generalizability,2,determining,4,reconstructing,3
+the feasible and measurable improvements,2,multiword expressions,2,semantic representations,2,deception techniques,2,representations,2,utilized,4,leveraging,3
+potential improvements,2,the categorization,2,political figures,2,morphologically rich languages,2,downstream tasks,2,making,4,support,3
+the lexical complexity,2,context information,2,comparison,2,f1-score,2,quality estimation,2,used in,4,defining,3
+the performance improvements,2,statistical models,2,the wmt shared task,2,studies,2,the similar language translation,2,improved to achieve,4,explaining,3
+the proposed multimodal and multitask transformer model,2,competitive results,2,high performance,2,efficiency,2,language learning,2,estimating,4,differ in,3
+language style,2,the proposed annotated dataset,2,multilingual models,2,lms,2,traditional baselines,2,evaluated on,4,utilized for,3
+residual adapters,2,patterns,2,the emotional expressiveness,2,access,2,semantic information,2,analyze,4,improves,3
+the perin model,2,the f1 scores,2,grounded language learning models,2,clustering,2,mwes,2,describing,4,distinguish,3
+the baseline results,2,human evaluations,2,the control,2,serialization,2,the ner task,2,assigning,4,recognizing,3
+a neural network architecture,2,the translation accuracy,2,a machine translation model,2,online forum posts,2,the study,2,resolving,4,utilized in,3
+the self-ensemble filtering mechanism,2,universal dependencies,2,immigration,2,recent natural language representations,2,automatic text simplification,2,leveraging,4,transferring,3
+the representation,2,datasets,2,resolution,2,multilingual neural machine translation systems,2,training data,2,preprocessing,4,decoding,3
+behavior,2,a reconstruction component,2,neural language models,2,understanding,2,a machine translation system,2,evaluate,4,optimized to achieve,3
+the presence,2,a system,2,small-scale language models,2,the perception,2,events,2,recall,4,oes ec1,3
+the expansion approach,2,a recurrent neural network,2,the introduced corpus,2,mt models,2,domain adaptation,2,initializing,4,utilized to enhance,3
+the difficulty,2,procedures,2,cross-lingual transfer learning,2,gricean data,2,large corpora,2,matching,4,captures,3
+adversarial training,2,benefits,2,neural machine translation (nmt) systems,2,multi-word expressions,2,neologisms,2,represent,4,demonstrate,3
+influence functions,2,multiple languages,2,a pre-trained language model,2,events,2,multilingual parsing,2,pretrained,4,addressed in,3
+the edges diachronic bible corpus,2,entity spaces,2,a model,2,french tweets,2,bleurt,2,analyzed,4,vary across,3
+causal knowledge,2,translation,2,other languages,2,the lack,2,the dataset,2,measure,3,creating,3
+additional training data,2,training data,2,similarity,2,new words,2,mandarin chinese,2,derived from,3,be improved,3
+settings,2,systems,2,hallucination,2,organization,2,gender systems,2,utilized to analyze,3,to represent,3
+does the re,2,the similarity,2,the understanding,2,questions,2,non-native english speakers' revisions,2,improved to ensure,3,written,3
+contrastive test suites,2,semantic tags,2,textual descriptions,2,the robustness,2,computational models,2,adapted for,3,making,3
+the optimal tokenization scheme,2,grammatical gender assignment,2,simple subgraphs,2,afips constituent societies,2,overall performance,2,differ between,3,applying,3
+the unique challenges,2,the financial domain,2,user satisfaction,2,the conll 2018 shared task,2,a multimodal corpus,2,presented,3,correlate with,3
+annotations,2,bert-based models,2,an ontology,2,the multi-label classification scenario,2,existing corpora,2,lead to,3,annotated,3
+an efficient algorithm,2,various types,2,the detection,2,performance improvements,2,medical texts,2,identified in,3,vary with,3
+the key characteristics,2,word sequences,2,improved accuracy,2,pie,2,contrast,2,ec1 embedding,3,require,3
+text classifiers,2,monolingual data,2,the monolingual and cross-lingual analogy tasks,2,the creation,2,the learnability,2,employed to improve,3,distinguishing,3
+iterative backtranslation,2,the open multilingual wordnet,2,language modeling,2,patterns,2,bcp,2,used to create,3,expanding,3
+gebiotoolkit,2,the occurrence,2,preservation,2,dependency parsing,2,f1 scores,2,quantified,3,tuning,3
+the implications,2,the number,2,polish,2,phonemes,2,the effectiveness,2,labeling,3,estimating,3
+a deep learning model,2,sentence,2,the classification,2,crf,2,the portuguese language,2,inferring,3,assigning,3
+the discrepancy,2,variational autoencoders,2,the application,2,compatibility,2,the contribution,2,utilize,3,utilized,3
+analysis,2,nmt systems,2,meaning,2,roberta,2,the legal domain,2,characterize,3,optimizing,3
+the encoding,2,gulf arabic,2,multiple-property extraction,2,existing metrics,2,different domains,2,removing,3,utilized to develop,3
+a transformer model,2,the challenges,2,convolutional neural networks,2,high bleu scores,2,low resource languages,2,to enable,3,automating,3
+the evaluation,2,the application,2,named entities,2,generated text,2,the biology domain,2,used to train,3,incorporate,3
+transformations,2,additional data,2,fake news detection,2,various language pairs,2,properties,2,automating,3,optimized,3
+machine learning approaches,2,multilingual interactive agents,2,emails,2,code,2,noise,2,characterizing,3,fixing,3
+performance metrics,2,human judgements,2,a potentially idiomatic expression,2,word2vec embeddings,2,low-resource language pairs,2,interpreting,3,to estimate,2
+the annotated corpus,2,the scores,2,the domain,2,nmt models,2,emotion,2,masked,3,reports,2
+bottleneck adapter layers,2,discourse relations,2,events,2,the 2024 babylm challenge,2,machine translation tasks,2,extract,3,designed to evaluate,2
+a pre-trained bert model,2,probing classifiers,2,the predictions,2,relations,2,traditional methods,2,employed to address,3,es ec1 per,2
+guidelines,2,the degree,2,the unsupervised cross-lingual word embeddings mapping method,2,complex sentences,2,skip-gram,2,discourse,3,pretraining,2
+choices,2,different approaches,2,non-manual components,2,bilingual evaluation understudy,2,the ability,2,to identify,3,ulmfit in,2
+the racai approach,2,"the ""voices",2,a system,2,dependency trees,2,rcs,2,used as,3,"c2, compare",2
+an effective methodology,2,samples,2,unsupervised machine translation,2,comparable results,2,absorption,2,to use,3,achieved by,2
+the guidelines,2,a modular lexical simplification architecture,2,different language families,2,coreference resolution,2,the current state,2,improved in,3,can ec,2
+the level,2,filtering,2,a related language,2,a gradient boosting model,2,their impact,2,extend,3,analyze,2
+sentence embeddings,2,news articles,2,the low resource language,2,the representation,2,nmt systems,2,produce,3,tested on,2
+the identification,2,the size,2,bleu scores,2,the penn discourse treebank,2,the prediction,2,to support,3,be improve,2
+the annotation guidelines,2,a supervised classification model,2,entity type sequences,2,language models,2,multilingual bert,2,pooling,3,encountered during,2
+sequential features,2,linguistic knowledge,2,senses,2,the relationships,2,sign language,2,retrieving,3,ec1 contribu,2
+does the introduction,2,emotion,2,medical-domain ner,2,transformer models,2,question,2,writing,3,optimized for,2
+contextual information,2,lexicons,2,the baseline,2,the model's performance,2,automatic post editing tasks,2,recovering,3,relying on,2
+automatically-generated questions,2,the causal effect,2,language acquisition,2,aspects,2,english machine translation,2,validating,3,does e,2
+the proposed statistical model,2,human visual attention,2,gender,2,the construction,2,the corpus,2,inducing,3,used to evaluate,2
+the contribution,2,evaluation metrics,2,the interpretation,2,the reduction,2,the shared task,2,presented in,3,inspired by,2
+embeddings,2,instructional videos,2,multiple dictionaries,2,domains,2,digital humanities projects,2,integrate,3,ively integrate,2
+membership query synthesis,2,the nuances,2,the proposed model,2,dictionaries,2,data augmentation,2,differ in,3,to label,2
+machine learning algorithms,2,understanding,2,offensive language,2,the use,2,the english-german language pair,2,quantifying,3,addressed,2
+criteria,2,bilingual lexicon induction,2,a range,2,agreement attraction,2,algorithm,2,text,3,introduced in,2
+backtranslation,2,language data sharing,2,multiword terms,2,completeness,2,varying levels,2,train,3,extend,2
+the neural semantic parser,2,social media,2,mandarin chinese,2,the conll 2017 shared task,2,the romanian language,2,constructed using,3,are ec1 contrib,2
+word,2,cross-lingual embeddings,2,the wmt 2021 terminology shared task,2,different levels,2,interest,2,refining,3,ow can e,2
+the intersection,2,sentiments,2,the style,2,machine reading comprehension,2,knowledge,2,exhibit,3,match,2
+the sequence,2,the bleu score,2,distant supervision,2,machine learning,2,polish,2,incorporates,3,allowing,2
+approaches,2,the etymology,2,automatic recognition,2,usability,2,users,2,to facilitate,3,to facilitate,2
+linguistic features,2,their performance,2,"the great war"" corpus",2,semeval2018,2,predictions,2,reflect,3,obtained from,2
+less,2,test sets,2,the proposed dataset,2,the preservation,2,abstract meaning representation,2,aggregating,3,involving,2
+the mapping,2,small-scale language modeling tasks,2,question,2,extraction,2,natural language processing tasks,2,benchmarks,3,model,2
+a parser network,2,recurrent neural networks,2,the learning,2,short texts,2,limitations,2,measured using,3,ow can ec,2
+the training data size,2,sentence segmentation,2,usability,2,domain-specific corpora,2,vocabulary,2,expressing,3,analyzed using,2
+language modeling,2,the level,2,semantic argument types,2,ud,2,word2vec,2,meaning,3,n ec1 f,2
+annotation curricula,2,hinglish,2,quality,2,code-mixed hinglish,2,character,2,obtaining,3,"ec1, combine",2
+the optimization,2,nouns,2,human evaluations,2,the absence,2,the utility,2,make,3,provided with,2
+resources,2,the transformer-big model,2,the number,2,errors,2,technologies,2,evaluated,3,used to enhance,2
+the scalability,2,tools,2,different aspects,2,a document,2,repeated processing tasks,2,combined with,3,interpret,2
+a neural network,2,) algorithm,2,datasets,2,creative text types,2,nlu,2,switching,3,learned,2
+gate dictlemmatizer,2,texts,2,the syntactic phenomenon,2,story generation,2,the computer science and information technology domain,2,algorithms,3,labeled,2
+summaries,2,a transformer-based model,2,stance detection,2,aspect-based sentiment analysis,2,adults,2,mitigating,3,referring,2
+contextual word embeddings,2,contact relatedness,2,neural attention,2,the portuguese language,2,bertscore,2,generated using,3,ec1 perfo,2
+a visual distributional semantic model,2,language model,2,multiplicative-additive displacement calculus,2,a combination,2,these insights,2,aligned,3,oes ec,2
+the output,2,structural modeling methods,2,the communist regime,2,analysis,2,novelty,2,introducing,3,generated by,2
+the treeswap data augmentation method,2,automatic speech recognition (asr) models,2,support,2,da+sqm,2,speeches,2,annotated,3,validated using,2
+cloze distillation,2,inference,2,model,2,knowledge,2,twitter,2,transfer,3,setting,2
+the proposed joint state model,2,document-level neural machine translation,2,a comment moderation model,2,automatic translation,2,the inclusion,2,vary in,3,developed for,2
+the distance,2,deletion,2,"filtering monolingual, parallel, and synthetic sentences",2,a deep learning framework,2,the need,2,mitigate,3,translate,2
+the conversion,2,solutions,2,translation memory systems,2,the interpretability,2,the blimp,2,following,3,to construct,2
+the annotation,2,cognates,2,verbs,2,hand-crafted features,2,system,2,to capture,3,of ec,2
+a large filter size,2,fake news detection,2,the sentence level,2,the source,2,bleu score,2,denoising,3,leads to,2
+a method,2,the model,2,ancient texts,2,co,2,polysynthetic languages,2,support,3,to spoken,2
+the siamese network approach,2,the power,2,long-distance dependencies,2,natural language understanding,2,applicability,2,masking,2,features,2
+evaluation,2,neural machine translation models,2,the wmt21 evaluation campaign,2,the johns hopkins university bible corpus,2,the removal,2,compute,2,rther improv,2
+a kāraka-based approach,2,the paper,2,translation accuracy,2,cognates,2,word order,2,used to confirm,2,found,2
+transformer-based machine learning models,2,external translations,2,nmt,2,the implications,2,specific linguistic features,2,employed for,2,to produce,2
+the collaborative,2,frames,2,approach,2,basque,2,neural networks,2,employed to evaluate,2,improved for,2
+universal dependencies,2,a new model,2,the relationship,2,facial expressions,2,tweets,2,adopting,2,spent on,2
+the most effective approach,2,gemba-mqm,2,depression,2,comprehension,2,contradiction,2,used to extract,2,collected using,2
+an unsupervised method,2,tag’em,2,monolingual data,2,the characteristics,2,a dependency parser,2,evaluated across,2,ec1 compar,2
+features,2,machine translation evaluation,2,the abstract meaning representation framework,2,biomedical translation tasks,2,deepl translator,2,optimized to facilitate,2,improved to achieve,2
+machine learning methods,2,location,2,terminology translation,2,parsing performance,2,occupations,2,utilized to measure,2,reproducing,2
+word2vec,2,a subset,2,indic languages,2,frequency,2,scores,2,reduced,2,to address,2
+edinburgh,2,transformer-based language models,2,the output,2,nli,2,techniques,2,used to enhance,2,defined on,2
+the transformation,2,semantic metadata,2,paraphrases,2,transformer-based neural machine translation systems,2,fine-grained entity,2,naming,2,ec1 be impr,2
+the proposed framework,2,simplification,2,nlp tasks,2,isolated sign recognition,2,sequence,2,addressed,2,analyzed,2
+the taxonomy,2,graph convolutional networks,2,topic models,2,authors,2,this process,2,distinguishing between,2,distinguish between,2
+predictions,2,sentiment classification,2,the identity,2,these issues,2,dataset,2,used to generate,2,debiasing,2
+machine,2,the fluency,2,xlm-roberta,2,elmo,2,additional data,2,investigating,2,to ensure,2
+the spatial multi-arrangement approach,2,recall,2,understanding,2,the addition,2,transformer-based multilingual neural machine translation systems,2,generated from,2,leverages,2
+the utilization,2,diversity,2,word difficulty,2,dialogue systems,2,windowdiff,2,detect,2,ec5 contribut,2
+the temporal evolution,2,parsing performance,2,existing datasets,2,each,2,self-harm,2,reveal,2,quantify,2
+the optimal balance,2,a multilingual chatbot model,2,translation systems,2,the automatic detection,2,post-editing effort,2,alleviate,2,", compare",2
+a machine translation system,2,transformer-based models,2,ancient scripts,2,a question,2,qde,2,discovering,2,maintains,2
+the proposed annotation guideline,2,a transformer model,2,recurrent neural network,2,improved performance,2,the baseline,2,utilized to construct,2,benchmarks,2
+deep learning-based models,2,srl,2,mllms,2,parsing,2,scratch,2,ec1 to,2,augmented with,2
+the bag,2,behavior,2,algorithms,2,rouge,2,the improvement,2,grounding,2,evaluated by,2
+model fusing,2,vocabulary,2,gpt-4,2,baselines,2,machine translation quality,2,introduce,2,measured using,2
+the proposed algorithm,2,templates,2,the selection,2,the word,2,simultaneous translation,2,created to improve,2,1 trained,2
+the watset meta-algorithm,2,the incorporation,2,character embeddings,2,existing resources,2,speakers,2,adapted,2,quantified,2
+an nmt system,2,machine learning models,2,ability,2,vocabulary,2,language-specific models,2,transliterated,2,projecting,2
+an algorithm,2,a large language model,2,downstream nlp tasks,2,discourse-level neural machine translation,2,reasoning,2,used to validate,2,process,2
+the adaptation,2,tilm,2,an input article,2,the potential benefits,2,filtering rules,2,increase,2,integrated into,2
+annotation scheme,2,cnn,2,nlp applications,2,semantic parsing,2,similar languages,2,crowdsourcing,2,compared with,2
+neural networks,2,tokenization,2,subjectivity,2,rnns,2,claims,2,developed to generate,2,followed by,2
+the transformer-xl model,2,eye-tracking data,2,bt,2,various domains,2,ocr error detection,2,designed to optimize,2,utilized to identify,2
+multilingual word embeddings,2,indian languages,2,t5,2,content,2,the classification,2,utilized to generate,2,play in,2
+learning models,2,supervision,2,machine learning,2,classification tasks,2,entity recognition,2,according to,2,combined,2
+syntactic information,2,existing methods,2,the test data,2,an ambiguous word,2,translation models,2,word,2,validating,2
+dependency parsers,2,embeddings,2,mbart,2,biomedical translation,2,dependencies,2,enables,2,pretraining affect,2
+the optimal amount,2,examples,2,grammatical errors,2,transformer-based systems,2,the process,2,modified,2,to support,2
+geczlex,2,rnn,2,sequences,2,mnmt,2,improvements,2,segmenting,2,visualize,2
+the topical influence language model,2,privacy,2,russian,2,limited training data,2,a document translation system,2,used to perform,2,built using,2
+a pipeline,2,the research challenges,2,news articles,2,a recurrent neural network,2,counter,2,digitizing,2,to evaluate,2
+the share-and-transfer framework,2,related words,2,the size,2,question difficulty estimation,2,crowdsourcing,2,spotting,2,to reduce,2
+the writing styles,2,embedding model,2,modern standard arabic (msa,2,aspect,2,relationships,2,limiting,2,perform on,2
+the cca measure,2,domain adaptation,2,annotation,2,other techniques,2,the collection,2,annotated with,2,according to,2
+a custom tokenizer,2,riqua,2,ted-talks,2,sentiment,2,metadata,2,determined using,2,used to develop,2
+fine-tuning deltalm,2,claims,2,the degree,2,augmentation,2,rnns,2,yield,2,c1 based,2
+a rule-based model,2,the transformer model,2,bias,2,the availability,2,multiple language pairs,2,utilized to evaluate,2,understand,2
+the recurrent neural network,2,scenarios,2,transformer-based architecture,2,phrases,2,dialogue tasks,2,optimized for,2,spoken,2
+a deep learning system,2,attention,2,results,2,pre,2,results,2,to reduce,2,1 contributing,2
+a bert-based method,2,generative models,2,covid-19 vaccines,2,italian politicians,2,the wmt news translation task,2,-,2,exploiting,2
+the extraction,2,representation,2,lexico-semantic annotation,2,translation tasks,2,low-resource settings,2,model,2,presented in,2
+this paper,2,the learning,2,the mix-up method,2,subwords,2,traditional supervised learning models,2,document,2,summarizing,2
+the compatibility,2,neural models,2,gender bias,2,instructional texts,2,extraction,2,labeled,2,adopting,2
+deep neural networks,2,(mt) metrics,2,the influence,2,long documents,2,cross-lingual transfer,2,used to differentiate between,2,inform,2
+these questions,2,task-oriented dialog systems,2,revisions,2,metadata,2,a movie script,2,employed to create,2,applied,2
+neural machine translation models,2,the english-russian neural machine translation system,2,analysis,2,traditional masked language modeling,2,the istic's submission,2,affecting,2,following,2
+the proposed one-stage framework,2,an approach,2,better performance,2,pseudo,2,the precision,2,replicating,2,used for,2
+the transformer-based architecture,2,a machine reading comprehension model,2,prediction,2,conditions,2,another,2,addressed to facilitate,2,evaluated in,2
+opustools,2,character-level representations,2,twitter,2,cross-lingual word embeddings,2,new languages,2,automate,2,discriminating,2
+the implementation,2,a sentiment analysis model,2,a graph,2,approaches,2,the efficacy,2,to provide,2,ec1 train,2
+the rule-based approach,2,the intent,2,catastrophic forgetting,2,the proposed model,2,the feasibility,2,used to analyze,2,produced,2
+the optimal machine learning model,2,the structure,2,a literary work,2,word-level,2,the models,2,improved to increase,2,indicate,2
+the relationship,2,contextual information,2,emotions,2,bulgarian,2,language resources,2,optimized to enhance,2,assessing,2
+the properties,2,conceptnet,2,qe,2,wikipedia,2,semantic parsing,2,supporting,2,adding,2
+the transformer architecture,2,indexed grammars,2,relevant semantic knowledge,2,information extraction,2,participants,2,considered,2,testing,2
+a correlation,2,different layers,2,the purpose,2,applications,2,lexical resources,2,framing,2,surpass,2
+the proposed algorithms,2,the xlm-roberta model,2,the automated creation,2,answer,2,grammaticality,2,modeled,2,to understand,2
+the optimal architecture,2,minimalist grammars,2,method,2,the mpaa rating,2,individuals,2,vary among,2,of ec1 b,2
+the bilingual parallel corpus,2,coreference resolution,2,a set,2,text,2,other methods,2,used by,2,constructing,2
+the constraint-based parser,2,masked language modeling,2,hashtags,2,inuktitut,2,the wmt20 quality estimation,2,created,2,update,2
+the amount,2,the balance,2,the dataset,2,czech,2,relative clauses,2,extended,2,combating,2
+swiss-al,2,vocabularies,2,representation,2,human assessment,2,references,2,categorizing,2,accounting for,2
+machine learning,2,events,2,the improvement,2,finite-state automata,2,low-resource indic language translation tasks,2,introduced to improve,2,resultative,2
+the representations,2,shifts,2,less-resourced languages,2,one language,2,children,2,contribute,2,consider,2
+term extraction,2,the challenge,2,the compare-aggregate framework,2,quality estimation,2,interactions,2,projecting,2,ranking,2
+the selection,2,nmt,2,the dynamics,2,the interpretation,2,account,2,mimicking,2,differ,2
+clinical terminology,2,limitations,2,transcription,2,supervised models,2,conversational agents,2,scoring,2,to infer,2
+an automatic system,2,hindi,2,a recurrent neural network,2,japanese,2,part,2,employed to measure,2,writing,2
+the-shelf,2,jparacrawl,2,non-inclusive language,2,cds,2,the news,2,contains,2,utilize,2
+a situation model,2,raunak,2,swow,2,this study,2,the reliability,2,searching,2,highlighting,2
+the slide metric,2,morphology,2,the integration,2,the bengali↔hindi news translation task,2,information,2,adjusting,2,annotate,2
+the multitask lstm-based neural network,2,areta,2,a diverse set,2,multilingual machine translation,2,the united states,2,developed to evaluate,2,influence,2
+the proposed metropolis-hastings sampler,2,comprehension,2,the meaning,2,lemmas,2,focus,2,vary between,2,extracted from,2
+machine translation metrics,2,data diversification,2,the university,2,glove,2,different levels,2,built for,2,oriented,2
+r-drop,2,cross-lingual word embeddings,2,machine translation models,2,actions,2,domain-specific machine translation tasks,2,adapted to create,2,achieves,2
+evald,2,a database,2,part,2,bert embeddings,2,algorithms,2,parsing using,2,ensembling,2
+automatic speech recognition,2,transformer,2,word-level auto-completion,2,negation,2,the syntactic correctness,2,extracted from,2,differ from,2
+morphological features,2,torot,2,participants,2,news articles,2,the bleu scores,2,accessing,2,performing,2
+a multi-task fine-tuned cross-lingual language model,2,asr,2,transformer-based neural machine translation systems,2,sampling,2,precision,2,partitioning,2,learnt,2
+f1 score,2,better align,2,free text questions,2,(ape,2,youtube's comment section,2,specifying,2,,
+qe,2,the fragmentation,2,the self-learning method,2,processing,2,word similarity,2,trained to predict,2,,
+a single model,2,zero pronoun resolution,2,environmental terms,2,the comparison,2,a decoding mechanism,2,improved to reduce,2,,
+the ontology,2,a model,2,low-resource machine translation systems,2,gcn,2,their ability,2,studying,2,,
+the dual attention model,2,xlm,2,human annotators,2,the polish language,2,the integration,2,associating,2,,
+metric,2,multiple language pairs,2,reranking,2,the biomedical domain,2,size,2,estimate,2,,
+ensemble methods,2,lexical resources,2,specific domains,2,the prediction accuracy,2,xlnet,2,provided,2,,
+filtering,2,distribution,2,frequency,2,xibe,2,sentiment transfer,2,defined,2,,
+monolingual pre-trained language models,2,the creation,2,.,2,these models,2,questions,2,injecting,2,,
+the proposed de-identification method,2,flames detector,2,the improvements,2,noisy data,2,the amount,2,used to associate,2,,
+the evaluation metrics,2,bulgarian dialects,2,machine translation (mt) systems,2,reproducibility,2,the transformer model,2,required for,2,,
+ensemble techniques,2,large-scale language models,2,workers,2,this performance,2,rouge-l,2,to investigate,2,,
+a bert language model,2,the hit-scir system,2,treebanks,2,recall,2,qe,2,stemming,2,,
+entities,2,event,2,sentiment,2,classification,2,back translation,2,summarizing,2,,
+bidirectional lstms,2,linguistic properties,2,representations,2,collusion scams,2,the categories,2,tailored for,2,,
+the mbart model,2,swiss german sign language,2,transformer-based neural machine translation models,2,english translation,2,the limitations,2,utilized to create,2,,
+the variation,2,citation recommendation,2,critical errors,2,methods,2,text classification,2,reproducing,2,,
+sas,2,a dataset,2,plms,2,a dictionary,2,narrative theory,2,mitigated to improve,2,,
+a multi-task model,2,aspect-based sentiment analysis,2,disordered speech,2,test data,2,the polish language,2,used to construct,2,,
+multilingual language models,2,word alignment,2,terminologies,2,the handling,2,,,typing,2,,
+a neural machine translation model,2,fine-grained classification,2,language learning,2,sentence ranking,2,,,pretraining,2,,
+aspect-based sentiment analysis,2,named entity disambiguation,2,dsgs,2,the domain adaptation,2,,,establish,2,,
+named entity recognition,2,udpipe,2,sentence-level quality estimation,2,users,2,,,spoken,2,,
+natural language processing,2,pre-trained language models,2,linear models,2,different techniques,2,,,to train,2,,
+nlp,2,irony activators,2,different dialects,2,arabic,2,,,classify,2,,
+the proposed unsupervised method,2,medical text,2,dacr,2,scientific abstracts,2,,,optimized using,2,,
+block backtranslation techniques,2,source,2,classification,2,asr,2,,,create,2,,
+the nits-cnlp's unsupervised machine translation model,2,fasttext,2,telegram,2,text generation,2,,,weighting,2,,
+the proportion,2,natural language generation,2,comprehension,2,marathi,2,,,maintained,2,,
+a corpus,2,the integration,2,relation classification tasks,2,the neural model,2,,,reports,2,,
+synthetic data,2,adequacy,2,ontologies,2,the study,2,,,answer,2,,
+mbart,2,cdec,2,top,2,a resource-rich language,2,,,to answer,2,,
+a pre-trained transformer model,2,mt5,2,indo-european languages,2,word-level auto-completion,2,,,prompting,2,,
+,,chatgpt,2,hindi,2,offensive texts,2,,,to ec8,2,,
+,,the abc treebank,2,mt,2,knowledge distillation,2,,,compare on,2,,
+,,a hybrid model,2,neural models,2,sql,2,,,developed using,2,,
+,,caption generation,2,the methods,2,text collections,2,,,reconstructing,2,,
+,,the strength,2,inuktitut,2,two languages,2,,,generate,2,,
+,,subsets,2,token masking,2,biobert,2,,,recognize,2,,
+,,multilingual embeddings,2,metrics,2,plms,2,,,architectures,2,,
+,,a copy mechanism,2,metric scores,2,mariannmt-based neural systems,2,,,align with,2,,
+,,nli,2,weights,2,a noun,2,,,treating,2,,
+,,machine translation systems,2,language resources,2,data diversification,2,,,to construct,2,,
+,,house,2,multimodal data,2,,,,,encountered,2,,
+,,the potential,2,pretrained models,2,,,,,related to,2,,
+,,word sense changes,2,brazilian portuguese,2,,,,,to measure,2,,
+,,the encoder,2,shogi commentaries,2,,,,,overcoming,2,,
+,,encoder-decoder models,2,the language,2,,,,,based named,2,,
+,,"""ambiguous sentences",2,a single model,2,,,,,developed in,2,,
+,,methods,2,wsd,2,,,,,imbalanced,2,,
+,,lstms,2,tools,2,,,,,ec1 with,2,,
+,,dependency parsing,2,image,2,,,,,not use,2,,
+,,density,2,the multidimensional quality metrics (mqm) scores,2,,,,,differ from,2,,
+,,clinical cases,2,the frequency,2,,,,,reporting,2,,
+,,the semantic distance,2,potential,2,,,,,surpassing,2,,
+,,,,external knowledge,2,,,,,improved to match,2,,
+,,,,gcns,2,,,,,tagged,2,,
+,,,,sanskrit,2,,,,,approaches,2,,
+,,,,the-loop,2,,,,,to model,2,,
+,,,,formality,2,,,,,have for,2,,
+,,,,recognition,2,,,,,translating between,2,,
+,,,,pos,2,,,,,forcing,2,,
+,,,,f30kent-jp,2,,,,,developed to address,2,,
+,,,,sentence splitting,2,,,,,fed with,2,,
+,,,,upper sorbian,2,,,,,logging,2,,
+,,,,adapters,2,,,,,combine,2,,
+,,,,(ape,2,,,,,involving,2,,
+,,,,hate speech,2,,,,,written,2,,
+,,,,homogeneity metrics,2,,,,,regularizing,2,,
+,,,,long-text stories,2,,,,,replacing,2,,
+,,,,an adjective,2,,,,,averaged,2,,
+,,,,,,,,,,allows,2,,
+,,,,,,,,,,setting,2,,
+,,,,,,,,,,leverages,2,,
+,,,,,,,,,,captures,2,,
+,,,,,,,,,,computing,2,,
+,,,,,,,,,,assisting,2,,

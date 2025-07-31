@@ -6,7 +6,7 @@ from collections import Counter
 input_file = "research_questions/mistral_rqs.csv"      
 output_file = "mistral_rqs_patterns.csv"  
 
-# Define pattern matcher (captures first 4 words for structure)
+# Define pattern matcher (captures first 5 words for structure)
 def extract_pattern(rq):
     rq = rq.strip()
     rq = re.sub(r'[^\w\s]', '', rq)  # Remove punctuation
