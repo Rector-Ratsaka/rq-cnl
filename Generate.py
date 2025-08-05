@@ -71,14 +71,14 @@ def process_csv_file(file_path: Path) -> None:
 
     df = df[OUTPUT_COLS]
 
-    out_path = create_output_directory() / "llama.csv"
+    out_path = create_output_directory() / "llama_train.csv"
     df.to_csv(out_path, index=False, encoding="utf-8")
     print(f"saved to {out_path}")
 
 
-# ── CLI entry-point ───────────────────────────────────────────────────────────
+# CLI entry-point
 def main():
-    src = Path("research_questions/llama_rqs.csv")
+    src = Path("research_questions/llama_rqs_80train.csv")
     if not src.exists():
         print(f"File not found: {src}")
         return

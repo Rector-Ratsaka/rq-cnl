@@ -4,13 +4,13 @@ from pathlib import Path
 from collections import Counter
 from itertools import zip_longest
 
-INPUT  = Path("cnl_output/mistral.csv")
-OUTPUT = Path("patterns/mistral_chunk_patterns.csv")
+INPUT  = Path("./cnl_output/mistral_train.csv")
+OUTPUT = Path("mistral_train_chunk_patterns.csv")
 
 MARKERS = (
     [f"EC{i}" for i in range(1, 6)] +  # EC1 … EC5
     [f"PC{i}" for i in range(1, 3)]    # PC1 … PC2
-)                                       # total 7 markers → 14 columns
+)                                       
 
 # load templated questions 
 if not INPUT.exists():

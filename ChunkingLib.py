@@ -77,7 +77,9 @@ def extract_EC_chunks(cq: str) -> str:
         "these", "those", "not", "the main types", "the possible types",
         "the types", "the difference", "the differences", "the main categories",
         "is", "are", "was", "were", "have", "has", "had", "been", "being", "be",
-        "how can", "what can", "when can", "where can", "why can", "which can"
+        "how can", "what can", "when can", "where can", "why can", "which can",
+        'the performance', 'the use','the context','the accuracy','terms', 'it',
+        'impact'
     }
 
     doc        = nlp(cq)
@@ -177,11 +179,13 @@ def get_PCs_as_spans(cq: str):
 # Extract predicate chunks (PCs) from a question
 def extract_PC_chunks(cq: str) -> str:
     rejecting_pc = {
-        'is', 'are', 'was', 'were', 'do', 'does', 'did', 'have', 'had', 'has',
+        'is', 'are', 'was','can', 'were', 'do', 'does', 'did', 'have', 'had', 'has',
         'can', 'could', 'will', 'would', 'should', 'shall', 'may', 'might',
         'must', 'be', 'been', 'being', 'categorise', 'regarding', 'is of',
         'are of', 'are in', 'given', 'is there', 'are there', 'was there',
-        'were there'
+        'were there','using','compared to','compare to', 'affect', 'improving', 'improve',
+        'based on','incorporating','impact', 'used', 'achieve', 
+        'identifying', 'considering', 'achieve'
     }
 
     doc        = nlp(cq)

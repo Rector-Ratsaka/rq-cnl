@@ -46,16 +46,16 @@ def extract_EC_chunks_with_mapping(
     counter     = 1
 
     rejecting_ec = {
-        "does", "do", "can", "could", "will", "would", "should", "shall",
-        "may", "might", "what", "which", "when", "where", "who", "whom",
-        "whose", "why", "how", "type", "types", "kinds", "kind",
-        "category", "categories", "difference", "differences", "extent",
-        "i", "we", "respect", "there", "this", "that", "these", "those",
-        "not", "the main types", "the possible types", "the types",
-        "the difference", "the differences", "the main categories",
-        "is", "are", "was", "were", "have", "has", "had", "been",
-        "being", "be", "how can", "what can", "when can", "where can",
-        "why can", "which can"
+        "does", "do", "can", "could", "will", "would", "should", "shall", "may", "might",
+        "what", "which", "when", "where", "who", "whom", "whose", "why", "how",
+        "type", "types", "kinds", "kind", "category", "categories", "difference",
+        "differences", "extent", "i", "we", "respect", "there", "this", "that",
+        "these", "those", "not", "the main types", "the possible types",
+        "the types", "the difference", "the differences", "the main categories",
+        "is", "are", "was", "were", "have", "has", "had", "been", "being", "be",
+        "how can", "what can", "when can", "where can", "why can", "which can",
+        'the performance', 'the use','the context','the accuracy','terms', 'it',
+        'impact'
     }
 
     def _clean_span(chunk):
@@ -121,11 +121,13 @@ def extract_PC_chunks_with_mapping(
     counter     = 1
 
     rejecting_pc = {
-        'is', 'are', 'was', 'were', 'do', 'does', 'did', 'have', 'had', 'has',
+        'is', 'are', 'was','can', 'were', 'do', 'does', 'did', 'have', 'had', 'has',
         'can', 'could', 'will', 'would', 'should', 'shall', 'may', 'might',
-        'must', 'be', 'been', 'being', 'categorise', 'regarding',
-        'is of', 'are of', 'are in', 'given',
-        'is there', 'are there', 'was there', 'were there'
+        'must', 'be', 'been', 'being', 'categorise', 'regarding', 'is of',
+        'are of', 'are in', 'given', 'is there', 'are there', 'was there',
+        'were there','using','compared to', 'affect', 'improving', 'improve',
+        'based on','incorporating','impact', 'used', 'achieve', 
+        'identifying', 'considering', 'achieve', 'compare to'
     }
 
     from ChunkingLib import get_PCs_as_spans  # local import to avoid cycle
