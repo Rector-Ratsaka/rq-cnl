@@ -3,8 +3,8 @@ import re
 from collections import Counter
 
 # Load RQs
-input_file = "research_questions/mistral_rqs.csv"      
-output_file = "mistral_rqs_patterns.csv"  
+input_file = "../research_questions/mistral_rqs_80train.csv"      
+output_file = "mistral_rqs_patterns_80train.csv"  
 
 # Define pattern matcher (captures first 5 words for structure)
 def extract_pattern(rq):

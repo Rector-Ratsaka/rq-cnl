@@ -1,4 +1,3 @@
-# analyse_mappings_by_marker.py
 import pandas as pd
 from pathlib import Path
 from collections import Counter

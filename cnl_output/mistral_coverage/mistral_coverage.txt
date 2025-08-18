@@ -1,0 +1,20 @@
+Mistral Coverage
+
+     match_type  n_words  matched  total  coverage_pct
+     full_exact      all        2    803          0.25
+
+forward_first_n      5        603    803         75.09
+forward_first_n      6        495    803         61.64
+forward_first_n      7        362    803         45.08
+forward_first_n      8        248    803         30.88
+forward_first_n      9        150    803         18.68
+forward_first_n     10         82    803         10.21
+forward_first_n     11         39    803          4.86
+
+backward_last_n      5        494    803         61.52
+backward_last_n      6        334    803         41.59
+backward_last_n      7        187    803         23.29
+backward_last_n      8         99    803         12.33
+backward_last_n      9         46    803          5.73
+backward_last_n     10         26    803          3.24
+backward_last_n     11         10    803          1.25

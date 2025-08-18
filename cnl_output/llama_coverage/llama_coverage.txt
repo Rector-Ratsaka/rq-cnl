@@ -1,0 +1,20 @@
+Llama Coverage 
+
+     match_type  n_words  matched  total  coverage_pct
+     full_exact     all         1    854          0.12
+
+forward_first_n      5        606    854         70.96
+forward_first_n      6        490    854         57.38
+forward_first_n      7        356    854         41.69
+forward_first_n      8        226    854         26.46
+forward_first_n      9        163    854         19.09
+forward_first_n     10         83    854          9.72
+forward_first_n     11         48    854          5.62
+
+backward_last_n      5        577    854         67.56
+backward_last_n      6        467    854         54.68
+backward_last_n      7        312    854         36.53
+backward_last_n      8        209    854         24.47
+backward_last_n      9        138    854         16.16
+backward_last_n     10         60    854          7.03
+backward_last_n     11         32    854          3.75

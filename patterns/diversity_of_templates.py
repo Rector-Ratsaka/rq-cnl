@@ -2,8 +2,8 @@ import csv
 from collections import Counter
 
 # Input and output file paths
-input_csv_path = 'cnl_output/llama.csv'
-output_csv_path = 'llama_template_patterns.csv'
+input_csv_path = './cnl_output/mistral_train.csv'
+output_csv_path = 'mistral_train_template_patterns.csv'
 
 # Count frequencies
 template_counter = Counter()
