@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 # Load the dataset
 df = pd.read_csv("mistral_rqs.csv")  
 
-# Split into 80% train, 20% test (stratify=False as no label column is specified)
+# Split into 80% train, 20% test 
 train_df, test_df = train_test_split(df, test_size=0.2, random_state=42, shuffle=True)
 
 # Save to new CSV files

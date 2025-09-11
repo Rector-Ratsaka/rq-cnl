@@ -21,7 +21,7 @@ with open(input_file, newline='', encoding="utf-8") as f:
 # BLEU smoothing
 smooth = SmoothingFunction().method1
 
-# ----- Corpus BLEU -----
+
 # Interpret all train templates as references for every test template
 if test_templates and train_templates:
     references_per_hyp = [train_templates] * len(test_templates)  # multi-reference
