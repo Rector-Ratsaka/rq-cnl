@@ -1,7 +1,9 @@
 # Generate CNL templates and structured EC/PC mappings from research questions (RQs)
+# Usage: python3 Generate.py <input_rqs.csv>
 # RTSREC001 - Rector Ratsaka
 
 import pandas as pd
+import argparse
 from pathlib import Path
 from dataclasses import dataclass
 
@@ -11,6 +13,11 @@ from ChunkingLib import (
     extract_PC_chunks_with_mapping,
 )
 
+# command line args
+parser = argparse.ArgumentParser(description="Generate CNL templates and structured EC/PC mappings from research questions (RQs).")
+parser.add_argument("input_rqs", type=str, help="Input CSV file with research questions.")
+args = parser.parse_args()
+input_rqs = args.input_rqs
 
 @dataclass
 class CNLTemplateGenerator:
@@ -80,7 +87,7 @@ def process_csv_file(file_path: Path) -> None:
 
 # CLI entry-point
 def main():
-    src = Path("research_questions/mistral_rqs_20test.csv")
+    src = Path(input_rqs)
     if not src.exists():
         print(f"File not found: {src}")
         return
