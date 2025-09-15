@@ -1,3 +1,7 @@
+# Analyze diversity of templated questions by counting their frequencies
+# and saving the results to a CSV file.
+# RTSREC001 - Rector Ratsaka
+
 import csv
 from collections import Counter
 

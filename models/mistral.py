@@ -1,3 +1,7 @@
+# Script to generate/extract research questions from abstracts using Mistral-7B
+# Usage: python3 mistral.py <input_file> <prompts_file> <output_file>
+# RTSREC001 - Rector Ratsaka
+
 import argparse
 import json
 import csv

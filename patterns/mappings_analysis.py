@@ -1,3 +1,7 @@
+# Analyze chunk patterns in templated questions from a CSV file.
+# Count frequencies of chunks in specific columns and save results to a CSV file.
+# RTSREC001 - Rector Ratsaka
+
 import pandas as pd
 from pathlib import Path
 from collections import Counter

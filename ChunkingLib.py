@@ -1,3 +1,7 @@
+# Library for extracting EC and PC chunks from research questions (RQs)
+# using SpaCy NLP library. It replaces identified chunks with markers (EC1, PC1, etc.)
+# RTSREC001 - Rector Ratsaka
+
 import re
 import spacy
 import csv, os 

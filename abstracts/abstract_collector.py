@@ -1,10 +1,22 @@
+# Script to scrape abstracts from conferences on ACL Anthology
+# Saves the abstracts to a JSON file.
+# Usage: python3 abstract_collector.py <conference_acronym>
+# RTSREC001 - Rector Ratsaka
+
 import requests
 from bs4 import BeautifulSoup
 import json
 import time
+import argparse
+
+# command line args
+parser = argparse.ArgumentParser(description="Scrape abstracts from ACL Anthology conferences.")
+parser.add_argument("conference", type=str, help="Conference acronym (e.g., lrec, cl, wmt, ranlp, conll).")
+args = parser.parse_args()
+conference = args.conference.lower()
 
 BASE_URL = "https://aclanthology.org"
-VENUE_URL = f"{BASE_URL}/venues/lrec/"
+VENUE_URL = f"{BASE_URL}/venues/{conference}/"
 
 # Get all volume links from the venue page
 res = requests.get(VENUE_URL)
@@ -56,7 +68,7 @@ for volume_url in volume_urls:
         continue
 
 # Save results to JSON
-with open("lrec_abstracts.json", "w", encoding="utf-8") as f:
+with open(f"{conference}_abstracts.json", "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
 
 print(f"\nFinished. Collected {len(results)} abstracts.")

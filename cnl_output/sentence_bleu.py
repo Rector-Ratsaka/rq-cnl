@@ -1,3 +1,6 @@
+# Analyze the quality of generated templates using sentence BLEU score.
+# RTSREC001 - Rector Ratsaka
+
 import csv
 from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 

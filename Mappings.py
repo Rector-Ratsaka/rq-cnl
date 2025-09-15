@@ -1,3 +1,7 @@
+# Keep track of text→marker mappings during chunk extraction
+# RTSREC001 - Rector Ratsaka
+
+
 from typing import Tuple, Dict
 from ChunkingLib import (
     nlp,

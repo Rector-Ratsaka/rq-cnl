@@ -1,3 +1,7 @@
+# Script to generate/extract research questions from abstracts using LLaMA 3.2
+# Usage: python3 llama.py <input_file> <prompts_file> <output_file>
+# RTSREC001 - Rector Ratsaka
+
 import argparse
 import json
 import csv

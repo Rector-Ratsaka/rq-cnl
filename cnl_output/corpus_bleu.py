@@ -1,3 +1,6 @@
+# Analyze the quality of generated templates using corpus BLEU score.
+# RTSREC001 - Rector Ratsaka
+
 import csv
 from nltk.translate.bleu_score import corpus_bleu, SmoothingFunction
 

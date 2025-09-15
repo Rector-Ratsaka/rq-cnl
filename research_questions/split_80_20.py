@@ -1,3 +1,6 @@
+# Script to split the research questions dataset into 80% training and 20% testing sets
+# RTSREC001 - Rector Ratsaka
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 

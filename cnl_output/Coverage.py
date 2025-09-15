@@ -1,3 +1,6 @@
+# Analyze coverage of test templates by train templates using exact, forward (first-N words),
+# and backward (last-N words) matching strategies. Save coverage results and matched rows to CSV files.
+# RTSREC001 - Rector Ratsaka
 
 import re
 import pandas as pd

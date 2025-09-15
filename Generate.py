@@ -1,4 +1,6 @@
-# generate_templates.py
+# Generate CNL templates and structured EC/PC mappings from research questions (RQs)
+# RTSREC001 - Rector Ratsaka
+
 import pandas as pd
 from pathlib import Path
 from dataclasses import dataclass
@@ -27,7 +29,7 @@ class CNLTemplateGenerator:
         return templated, map_dict
 
 
-# ── helpers ───────────────────────────────────────────────────────────────────
+# Columns for final output CSV
 OUTPUT_COLS = [
     "research_question", "templated_question",
     "EC1", "EC2", "EC3", "EC4", "EC5",

@@ -1,3 +1,7 @@
+# Analyze diversity of research questions (RQs) by extracting common patterns
+# and counting their frequencies. Save patterns with frequency >= 2 to a CSV file.
+# RTSREC001 - Rector Ratsaka
+
 import csv
 import re
 from collections import Counter
