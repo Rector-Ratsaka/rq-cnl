@@ -6,7 +6,7 @@ By combining LLM-based RQ extraction with CNL-guided template design, this work 
 
 ## To run models in /models folder follow this:
 
-source .venv/bin/activate or create virtual environment and install libraries in requirements.txt
+source .venv/bin/activate or create virtual environment and install dependencies in requirements.txt
 
 python3 <model_script> <abstracts_file(json)> <prompt_file(txt)> <output(reseach_questions_in_csv)>
 
